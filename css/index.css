@@ -1,4 +1,27 @@
-/* .Book_container{
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+ 
+body{
+    margin: 0;
+    padding: 0;    
+    background-color: #F3F1EE;
+}
+marquee{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: bisque;
+
+}
+.Book_container{
+    display: flex;
+    
+  
+    
+}
+.first_container{
+    border: black solid;
+    border-radius: 20px;
     margin-left: 30px;
     padding: 10px;
     height: 200px;
@@ -7,7 +30,63 @@
     font-size: 12px;
     background-color: rgb(255, 255, 255);
     color: black;
-    border-radius: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     transition: 1s;
-} */
+    
+    
+}
+.second_container{
+    border: black solid;
+    border-radius: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    height: 200px;
+    margin-top: 100px;
+    width: 360px;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    transition: 1s;
+    
+}
+.third_container{
+    border: black solid;
+    border-radius: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    height: 200px;
+    margin-top: 100px;
+    width: 360px;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    transition: 1s;
+    
+}
+.fourth_container{
+    border: black solid;
+    border-radius: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    height: 200px;
+    margin-top: 100px;
+    width: 360px;
+    font-size: 12px;
+    background-color: rgb(218, 213, 213);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    transition: 1s;
+    }
+    .container_text{
+      text-align: center;
+    }
