@@ -10,83 +10,31 @@ marquee{
     font-weight: 100;
     font-style: normal;
     font-size: 30px;
-    text-decoration: bisque;
-
-}
-.Book_container{
-    display: flex;
-    
-  
-    
-}
-.first_container{
-    border: black solid;
-    border-radius: 20px;
-    margin-left: 30px;
-    padding: 10px;
-    height: 200px;
-    margin-top: 100px;
-    width: 360px;
-    font-size: 12px;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    transition: 1s;
-    
-    
-}
-.second_container{
-    border: black solid;
-    border-radius: 20px;
-    margin-left: 30px;
-    padding: 10px;
-    height: 200px;
-    margin-top: 100px;
-    width: 360px;
-    font-size: 12px;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    transition: 1s;
-    
-}
-.third_container{
-    border: black solid;
-    border-radius: 20px;
-    margin-left: 30px;
-    padding: 10px;
-    height: 200px;
-    margin-top: 100px;
-    width: 360px;
-    font-size: 12px;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    transition: 1s;
-    
-}
-.fourth_container{
-    border: black solid;
-    border-radius: 20px;
-    margin-left: 30px;
-    padding: 10px;
-    height: 200px;
-    margin-top: 100px;
-    width: 360px;
-    font-size: 12px;
     background-color: rgb(218, 213, 213);
     color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+}
+
+
+.Book_container{
+    display: flex;
+}
+.book_image{
+    height:230px;
+    width: 270px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+    padding: 10px;
     transition: 1s;
-    }
-    .container_text{
-      text-align: center;
-    }
+}
+.book_image:hover{
+   background-color: rgb(79, 78, 77);
+   cursor: pointer;
+   
+}
+.Book_deals{
+    font-size: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
