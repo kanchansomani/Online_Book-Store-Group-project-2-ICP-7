@@ -5,7 +5,7 @@ body{
     padding: 0;    
     background-color: #F3F1EE;
 }
-marquee{
+/* marquee{
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
@@ -13,11 +13,11 @@ marquee{
     background-color: rgb(218, 213, 213);
     color: black;
    
-}
-.Book_container{
+} */
+/* .Book_container{
     display: flex;
-}
-.book_image{
+} */
+/* .book_image{
     height:230px;
     width: 270px;
     border: none;
@@ -26,7 +26,7 @@ marquee{
     margin-top: 50px;
     padding: 10px;
    
-}
+} */
 .book_image:hover{
     transform: scale(0.9);
     transition: 1s;
@@ -34,7 +34,7 @@ marquee{
 }
 .Book_deals{
     font-size: 50px;
-    padding-top: -70px;
+    padding-top: 30px;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
@@ -47,7 +47,16 @@ marquee{
     font-weight: 100px;
     font-style: normal;
     font-size: 30px;
-    margin-top: -50px;
+    margin-top: -30px;
+}
+@media only screen and (min-width: 768px){
+    .Book_deals{
+        font-size: auto;
+        margin-top: -10px;
+       
+       
+    }
+
 }
 .container{
    
@@ -56,7 +65,7 @@ marquee{
    
 }
 .container::-webkit-scrollbar{
-    width: 0;
+    width: 100%;
 }
 /* .container .item{
     min-width: 110px;
@@ -130,8 +139,11 @@ marquee{
     font-size: 15px;
     color:rgb(183, 120, 4)
 }
+@media only screen and (min-width: 768px){
+
+}
 .view_all_btn{
-   justify-content: center;
+   /* justify-content: center; */
     margin-top: 30px;
     margin-left: 45%;
     padding: 15px;
@@ -145,6 +157,25 @@ marquee{
     font-style: normal;
     font-size: 20px;
     background-color:rgb(183, 120, 4)
+}
+@media only screen and (min-width: 768px){
+    .view_all_btn{
+       
+    margin-top: 20px;
+    margin-left: 25%;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    width:0 auto;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 20px;
+    background-color:rgb(183, 120, 4)
+    }
+
 }
 .view_all_btn:hover{
     transform: scale(0.9);
