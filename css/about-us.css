@@ -19,28 +19,31 @@ body {
 .img-1 {
     height: 400px;
     width: 700px;
-    border:3px solid black;
+    border: 3px solid black;
     border-radius: 20px;
     margin-top: 100px;
     margin: 0 auto;
     display: flex;
 }
 
-.img-1:hover{
+.img-1:hover {
     background-color: rgb(79, 78, 77);
     cursor: pointer;
-    
- }
-.quote{
+
+}
+
+.quote {
     text-align: center;
     margin: 10px;
 }
-.para-1{
+
+.para-1 {
     text-align: left;
     margin: 20px;
     font-size: larger;
 }
-h3{
+
+h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -51,4 +54,9 @@ h3{
     padding: 10px;
     border: 3px solid black;
     text-align: left;
+}
+
+.items{
+    margin-left: 15px;
+    font-size: larger;
 }
