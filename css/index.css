@@ -7,14 +7,13 @@ body{
 }
 marquee{
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 100px;
     font-style: normal;
     font-size: 30px;
     background-color: rgb(218, 213, 213);
     color: black;
+   
 }
-
-
 .Book_container{
     display: flex;
 }
@@ -26,15 +25,229 @@ marquee{
     margin-left: 20px;
     margin-top: 100px;
     padding: 10px;
-    transition: 1s;
+   
 }
 .book_image:hover{
-   background-color: rgb(79, 78, 77);
-   cursor: pointer;
-   
+    transform: scale(0.9);
+    transition: 1s;
+    cursor: pointer;
 }
 .Book_deals{
     font-size: 50px;
-    padding-top: 10px;
+    /* padding-top: 50px; */
     text-align: center;
+}
+.container{
+   
+    display:flex;
+    overflow-x: auto;
+}
+.container::-webkit-scrollbar{
+    width: 0;
+}
+/* .container .item{
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+
+} */
+.Book_image_card{
+    height:200px;
+    margin-left:30px;
+    margin-top:30px;
+    /* box-shadow: 1px 1px 5px 5px  black; */
+}
+ 
+.first_container{
+    height:auto;
+    width:300px;
+    border:none;
+    margin-left: 20px;
+    padding:10px;
+
+ 
+    justify-content: center;
+    background-color: rgb(227, 223, 223);
+
+}
+.second_container{
+    height:auto;
+    width:200px;
+    border:none;
+    margin-left: 20px;
+    padding:10px;
+ 
+    justify-content: center;
+    background-color: rgb(227, 223, 223);
+
+}
+.third_container{
+    height:auto;
+    width:200px;
+    border:none;
+    margin-left: 20px;
+    padding:10px;
+ 
+    justify-content: center;
+    background-color: rgb(227, 223, 223);
+
+
+}
+.fourth_container{
+    height:auto;
+    width:200px;
+    border:none;
+    margin-left: 20px;
+    padding:10px;
+ 
+    justify-content: center;
+    background-color: rgb(227, 223, 223);
+
+
+}
+.sixth_container{
+    height:auto;
+    width:200px;
+    border:none;
+    margin-left: 20px;
+    padding:10px;
+ 
+    justify-content: center;
+    background-color: rgb(227, 223, 223);
+
+
+
+}
+.seventh_container{ 
+    height:auto;
+    width:200px;
+    border:none;
+    margin-left: 20px;
+    padding:10px;
+ 
+    justify-content: center;
+    background-color: rgb(227, 223, 223);
+
+}
+.eighth_container{
+    height:auto;
+    width:200px;
+    border:none;
+    margin-left: 20px;
+    padding:10px;
+ 
+    justify-content: center;
+    background-color: rgb(227, 223, 223);
+
+}
+.ninth_container{
+    height:auto;
+    width:200px;
+    border:none;
+    margin-left: 20px;
+    padding:10px;
+ 
+    justify-content: center;
+    background-color: rgb(227, 223, 223);
+
+
+}
+.use_of_product{
+    background-color: white;
+    margin-left: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+   
+
+}  
+.book_name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+   font-size: 20px;
+}
+.book_author{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+   
+
+}
+.book_price{
+    font-size: 20px;
+}
+.del_price{
+    color: gray;
+    font-size: 15px;
+}
+.add_to_cart{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 15px;
+    color:rgb(183, 120, 4)
+}
+.view_all_btn{
+   
+    margin-top: 70px;
+    margin-left: 50%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 20px;
+   
+    background-color:rgb(183, 120, 4)
+}
+.view_all_btn:hover{
+    transform: scale(0.9);
+    /* transition: 0.5s; */
+    transition: 1s ease-in;
+    cursor: pointer;
+}
+
+.advisors_section{
+    display: flex;
+    background-color: bisque;
+    margin-top: 90px;
+    overflow-x: auto;
+}
+.advisors_backers{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+}
+.advisor_container{
+    height: auto;
+    padding-left:20px;
+    margin-top:50px;
+}
+.advisor_img{
+    height:50px;
+    width: 100px;
+    margin-left:30px;
+    margin-top:30px;
+
+}
+.Advisor_name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 30px;
+}
+.advisor_description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 20px;
 }
