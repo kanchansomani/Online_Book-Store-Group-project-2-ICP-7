@@ -5,36 +5,318 @@ body{
     padding: 0;    
     background-color: #F3F1EE;
 }
-marquee{
+/* marquee{
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 100px;
     font-style: normal;
     font-size: 30px;
     background-color: rgb(218, 213, 213);
     color: black;
-}
-
-
-.Book_container{
+   
+} */
+/* .Book_container{
     display: flex;
-}
-.book_image{
+} */
+/* .book_image{
     height:230px;
     width: 270px;
     border: none;
     border-radius: 20px;
     margin-left: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 10px;
-    transition: 1s;
+   
+} */
+.row{
+    padding-top: 100px;
 }
 .book_image:hover{
-   background-color: rgb(79, 78, 77);
-   cursor: pointer;
-   
+    transform: scale(0.9);
+    transition: 1s;
+    cursor: pointer;
 }
 .Book_deals{
     font-size: 50px;
-    padding-top: 10px;
+    padding-top: 30px;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+}
+.time_ramaining{
+    color:rgb(183, 120, 4);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: -30px;
+}
+@media only screen and (min-width: 768px){
+    .Book_deals{
+        font-size: auto;
+        margin-top: -10px;
+       
+       
+    }
+
+}
+.container{
+   
+    display:flex;
+    overflow-x: auto;
+   
+}
+.container::-webkit-scrollbar{
+    width:0;
+}
+/* .container .item{
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+
+} */
+.Book_image_card{
+    
+    height:200px;
+    margin-left:40px;
+    margin-top:20px;
+    box-shadow: 1px 0 5px 1px  rgb(159, 158, 158);
+}
+.product_conatiner{
+    height:auto;
+    min-width:230px;
+    border:none;
+   
+    margin: 5px;
+    padding:10px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #F3F1EE;
+    
+}
+
+
+.use_of_product{
+    background-color: gray;
+    border-radius: 20px;
+    color: #F3F1EE;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: -10px;
+    margin-top: -20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+   
+
+}  
+.book_name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+   font-size: 20px;
+}
+.book_author{
+    margin-top: -10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+   
+
+}
+.book_price{
+    font-size: 20px;
+}
+.del_price{
+    color: gray;
+    font-size: 15px;
+}
+.add_to_cart{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 15px;
+    color:rgb(183, 120, 4)
+}
+@media only screen and (min-width: 768px){
+
+}
+.view_all_btn{
+   /* justify-content: center; */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 45%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 20px;
+    background-color:rgb(183, 120, 4)
+}
+@media only screen and (min-width: 768px){
+  
+
+}
+
+.view_all_btn:hover{
+    transform: scale(0.9);
+    /* transition: 0.5s; */
+    transition: 1s ease-in;
+    cursor: pointer;
+}
+.good_read{
+    padding-top:50px ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+@media only screen and (min-width: 768px){
+    .good_read{
+        
+    }
+
+}
+.New_book_container{
+    display: flex;
+    overflow-x: auto;
+}
+.New_book_container::-webkit-scrollbar{
+    width: 0;
+}
+.good_Book_image_card{
+    height:200px;
+    margin-left:50px;
+    margin-top:20px;
+    box-shadow: 1px 0 5px 1px  rgb(159, 158, 158);
+
+}
+.good_product_conatiner{
+    height:auto;
+    min-width:230px;
+    border:none;
+    margin-left: 20px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #F3F1EE;
+    
+}
+/* .good_container1{
+    margin-left: 70px;
+}
+.good_container4{
+    margin-right: 60px;
+} */
+.good_container5{
+    margin-right: 60px;
+    /* padding-right: 20px; */
+}
+.use_of_product2{
+    background-color: gray;
+    border-radius: 20px;
+    color: #F3F1EE;
+    width: 100px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: -20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+}  
+.good_book_name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.good_book_author{
+    margin-top: -10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    margin-left: 10px;
+   
+
+}
+.good_book_price{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.good_del_price{
+    color: gray;
+    font-size: 15px;
+  
+
+}
+.good_add_to_cart{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 15px;
+    color:rgb(183, 120, 4);
+    margin-left: 10px;
+}
+
+.advisors_section{
+    display: flex;
+    overflow-x: auto;
+    margin-top: -50px;
+    /* width: 500px; */
+
+}
+.advisors_section::-webkit-scrollbar{
+    width: 0 ;
+}
+.advisors_backers{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    display: inline;
+  
+ 
+}
+.advisor_container{
+    height:auto;
+    min-width:210px;
+    border:none;
+    margin-top: 50px;
+    padding-top: 50px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #F3F1EE;
+    padding-left: 20px;
+}
+
+
+.advisor_img{
+  height: 170px;
+  width: 170px;
+  border-radius:100%;
+}
+
+.Advisor_name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 30px;
+}
+.advisor_description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 20px;
 }
