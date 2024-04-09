@@ -13,6 +13,53 @@
         <title>Home page</title>
     </head>
     <body>
+<<<<<<< HEAD
+=======
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active  mb-md-4 p-md-4">
+            <img src="./images/index img/Slider_book1.jpg" class="d-block w-100" alt="" height="400px">
+          </div>
+          <div class="carousel-item  mb-md-4 p-md-4">
+            <img src="./images/index img/slider_book2.jpg" class="d-block w-100" alt="..."  height="400px">
+          </div>
+          <div class="carousel-item  mb-md-4 p-md-4">
+            <img src="./images/index img/slider_book3.jpg" class="d-block w-100" alt="..."  height="400px">
+          </div>
+          <div class="carousel-item  mb-md-4 p-md-4">
+            <img src="./images/index img/slider_book4.jpg" class="d-block w-100" alt="..."  height="400px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/index img/Slider_book1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/index img/slider_book2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div> -->
+>>>>>>> 17b5df908838142c3e66173ba1f43f11e6aecfda
       
         <div class="container">
           <div class="row justify-content-center">
@@ -49,7 +96,23 @@
     
           <div>
              <p class="Book_deals">Deal of the day</p>
-             <p class="time_ramaining">Time Remaining:</p>
+             <div  id="clock" class="time_ramaining">Time Remaining:</div>
+           
+
+            <script>
+            
+            function current()
+         {
+            const currentTime=new currentTime();
+            const time=currentTime.toLocaleString();
+            document.getElementById("clock").innerText = time;
+         }
+
+          setInterval(current,1000);
+
+          
+           </script>
+            
           </div>
       
            <div class="container">
