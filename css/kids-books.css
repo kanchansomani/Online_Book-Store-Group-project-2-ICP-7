@@ -8,11 +8,9 @@
 .container{
    
     display:flex;
-    overflow-x: auto;
+    flex-wrap: wrap;
 }
-.container2{
-    display: block;
-}
+
 
 .Book_image_card{
     
