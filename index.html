@@ -13,7 +13,7 @@
         <title>Home page</title>
     </head>
     <body>
-      <!-- <div id="carouselExampleIndicators" class="carousel slide">
+      <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -42,6 +42,20 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+
+      <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/index img/Slider_book1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/index img/slider_book2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
       </div> -->
       
         <div class="container">
@@ -79,19 +93,19 @@
     
           <div>
              <p class="Book_deals">Deal of the day</p>
-              <p class="time_ramaining">Time Remaining:</p>
-              <div id="clock" class="current"></div>
+             <div  id="clock" class="time_ramaining">Time Remaining:</div>
+           
 
             <script>
             
-            function currentTime()
+            function current()
          {
             const currentTime=new currentTime();
             const time=currentTime.toLocaleString();
             document.getElementById("clock").innerText = time;
          }
 
-          setInterval(currentTime,1000);
+          setInterval(current,1000);
 
           
            </script>
