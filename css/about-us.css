@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F3F1EE;
+}
+
+.heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    background-color: #F3F1EE;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.img-1 {
+    height: 400px;
+    width: 700px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.img-1:hover {
+    background-color: rgb(79, 78, 77);
+    cursor: pointer;
+
+}
+
+.quote {
+    text-align: center;
+    margin: 10px;
+}
+
+.para-1 {
+    text-align: left;
+    margin: 30px;
+    font-size: larger;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    background-color: #F3F1EE;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    text-align: left;
+}
+
+.items{
+    margin-left: 30px;
+    font-size: larger;
+}
+
+.branch-title {
+    text-align: center;
+}
+
+.branch-container {
+    background-color: #F3F1EE; 
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 10px;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 200px;
+}
+
+.btn-toggle {
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 40px;
+    border: none;
+    margin: 0 20px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(183, 120, 4); 
+}
+
+@media screen and (max-width:600px) {
+    .branch-container {
+        width: 100%;
+    }
+
+    .branch-img {
+        height: 150px;
+    }
+}
+
+.branch-img {
+    height: 250px;
+}
+
