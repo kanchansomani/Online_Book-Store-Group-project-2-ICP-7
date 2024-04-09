@@ -9,9 +9,11 @@
    
     display:flex;
     overflow-x: auto;
-
-   
 }
+.container2{
+    display: block;
+}
+
 .Book_image_card{
     
     height:200px;
