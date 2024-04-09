@@ -86,7 +86,7 @@ body{
    
 }
 .container::-webkit-scrollbar{
-    width:0;
+    width:100%;
 }
 
 .Book_image_card{
@@ -247,6 +247,10 @@ body{
 } */
 .good_container5{
     margin-right: 60px;
+    /* padding-right: 20px; */
+}
+.good_container6{
+    margin-right: 20px;
     /* padding-right: 20px; */
 }
 .use_of_product2{
