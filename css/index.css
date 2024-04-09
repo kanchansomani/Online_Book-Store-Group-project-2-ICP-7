@@ -86,7 +86,7 @@ body{
    
 }
 .container::-webkit-scrollbar{
-    width:0;
+    width:100%;
 }
 
 .Book_image_card{
@@ -94,23 +94,22 @@ body{
     height:200px;
     margin-left:40px;
     margin-top:20px;
-    box-shadow: 1px 0 5px 1px  rgb(159, 158, 158);
+    box-shadow: 1px 0 5px 2px  rgb(159, 158, 158);
 }
 .product_conatiner{
     height:auto;
     min-width:230px;
-    border:none;
-   
+    border:none;   
     margin: 5px;
     padding:10px;
     cursor: pointer;
     justify-content: center;
-    background-color: #F3F1EE;
+    background-color: #FDF7E4;
     
 }
 
 .use_of_product{
-    background-color: gray;
+    background-color:gray;
     border-radius: 20px;
     color: #F3F1EE;
     width: 100px;
@@ -118,7 +117,7 @@ body{
     padding-right: 20px;
     margin-right: 20px;
     margin-left: -10px;
-    margin-top: -20px;
+    margin-top: -10px;
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
@@ -226,17 +225,17 @@ body{
     height:200px;
     margin-left:50px;
     margin-top:20px;
-    box-shadow: 1px 0 5px 1px  rgb(159, 158, 158);
+    box-shadow: 1px 0 5px 2px  rgb(159, 158, 158);
 
 }
 .good_product_conatiner{
     height:auto;
     min-width:230px;
     border:none;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
     justify-content: center;
-    background-color: #F3F1EE;
+    background-color: #FDF7E4;
     
 }
 /* .good_container1{
@@ -246,18 +245,20 @@ body{
     margin-right: 60px;
 } */
 .good_container5{
-    margin-right: 60px;
+    margin-right: 10px;
     /* padding-right: 20px; */
 }
+
 .use_of_product2{
     background-color: gray;
     border-radius: 20px;
     color: #F3F1EE;
     width: 100px;
-    margin-top: 20px;
+   
+   
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: -20px;
+    padding-top: -30px; 
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
@@ -332,7 +333,8 @@ body{
     padding-top: 50px;
     cursor: pointer;
     justify-content: center;
-    background-color: #F3F1EE;
+  
+    background-color:  #DED0B6;
     padding-left: 20px;
 }
 /* @media screen and (max-width:768px)
