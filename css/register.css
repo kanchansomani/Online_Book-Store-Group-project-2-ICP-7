@@ -1,8 +1,11 @@
 .form-container{
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding:10px;
     display:flex;
+    border:2px solid rgb(99, 137, 156);
+  border-radius:20px;
+  box-shadow: 10px 10px 10px 10px  gray;
 }
 
 .btn,
@@ -10,12 +13,10 @@
 .delete-btn,
 .white-btn{
     display: inline-block;
-    margin-top:1rem;
     padding: 1rem 3rem;
     cursor: pointer;
     color:white;
     font-size:1.8rem;
-    border-radius: .5rem;
     text-transform: capitalize;
 }
 
@@ -90,3 +91,6 @@ html{
 .img{
     height:600px;
 }
+
+
+
