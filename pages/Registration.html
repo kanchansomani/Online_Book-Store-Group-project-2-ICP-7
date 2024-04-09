@@ -11,19 +11,33 @@
 </head>
 
 <link rel="stylesheet" href="../css/register.css">
+<link rel="stylesheet" href="../theme.html">
 <body>
 
     <div class="form-container">
 
         <form actions="" method="post">
             <h3>Register now</h3>
-            <input type="text" name="name" placeholder="enter your name" required class="box form-control">
+            <input type="text" name="name" placeholder="enter your fullname" required class="box form-control">
 
             <input type="email" name="email" placeholder="enter your email" required class="box form-control">
 
-            <input type="text" name="password" placeholder="enter your password" required class="box form-control">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">other</label>
 
-            <input type="text" name="password" placeholder="confirm your password" required class="box form-control">
+            <input type="number" name="phone no." placeholder="enter your phone no." required class="box form-control">
+
+            <input type="date" name="date" placeholder="" required class="box form-control">
+
+            <input type="address" name="address" placeholder="enter your address" required class="box form-control">
+            
+            <input type="password" name="password" placeholder="enter your password" required class="box form-control">
+
+            <input type="password" name="password" placeholder="confirm your password" required class="box form-control">
 
             <select name="user_type" class="box">
                 <option  value="user">user</option>
