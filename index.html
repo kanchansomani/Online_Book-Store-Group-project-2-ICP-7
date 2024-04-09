@@ -79,7 +79,23 @@
     
           <div>
              <p class="Book_deals">Deal of the day</p>
-             <p class="time_ramaining">Time Remaining:</p>
+              <p class="time_ramaining">Time Remaining:</p>
+              <div id="clock" class="current"></div>
+
+            <script>
+            
+            function currentTime()
+         {
+            const date=new Date();
+            const time=date.toLocaleString();
+            document.getElementById("clock").innerText = time;
+         }
+
+          setInterval(currentTime,1000);
+
+          
+           </script>
+            
           </div>
       
            <div class="container">

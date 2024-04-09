@@ -43,6 +43,16 @@ body{
     font-weight: 100px;
     font-style: normal;
 }
+@media screen and (max-width:768px)
+{
+    .Book_deals
+   {
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    
+   }
+}
 .time_ramaining{
     color:rgb(183, 120, 4);
     text-align: center;
@@ -52,15 +62,18 @@ body{
     font-size: 30px;
     margin-top: -30px;
 }
-@media only screen and (min-width: 768px){
-    .Book_deals{
-        font-size: auto;
-        margin-top: -10px;
-       
-       
-    }
-
+@media screen and (max-width:768px)
+{
+    .time_ramaining
+   {
+    color:rgb(183, 120, 4);
+    text-align: center;
+    
+    font-size: 15px;
+    margin-top: -20px;
+   }
 }
+
 .container{
    
     display:flex;
@@ -70,13 +83,7 @@ body{
 .container::-webkit-scrollbar{
     width:0;
 }
-/* .container .item{
-    min-width: 110px;
-    height: 110px;
-    line-height: 110px;
-    text-align: center;
 
-} */
 .Book_image_card{
     
     height:200px;
@@ -142,11 +149,12 @@ body{
     font-size: 15px;
     color:rgb(183, 120, 4)
 }
-@media only screen and (min-width: 768px){
+@media screen and (max-width:768px)
+{
 
 }
 .view_all_btn{
-   /* justify-content: center; */
+   
     margin-top: 30px;
     margin-bottom: 10px;
     margin-left: 45%;
@@ -162,7 +170,8 @@ body{
     font-size: 20px;
     background-color:rgb(183, 120, 4)
 }
-@media only screen and (min-width: 768px){
+@media screen and (max-width:768px)
+{
   
 
 }
@@ -181,7 +190,8 @@ body{
     font-size: 50px;
     text-align: center;
 }
-@media only screen and (min-width: 768px){
+@media screen and (max-width:768px)
+{
     .good_read{
         
     }
@@ -300,8 +310,6 @@ body{
     background-color: #F3F1EE;
     padding-left: 20px;
 }
-
-
 .advisor_img{
   height: 170px;
   width: 170px;
