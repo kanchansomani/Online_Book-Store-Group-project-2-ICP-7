@@ -148,6 +148,7 @@ body{
 .view_all_btn{
    /* justify-content: center; */
     margin-top: 30px;
+    margin-bottom: 10px;
     margin-left: 45%;
     padding: 15px;
     border-radius: 30px;
@@ -162,22 +163,7 @@ body{
     background-color:rgb(183, 120, 4)
 }
 @media only screen and (min-width: 768px){
-    /* .view_all_btn{
-       
-    margin-top: 20px;
-    margin-left: 25%;
-    padding: 10px;
-    border-radius: 30px;
-    border: none;
-    color: white;
-    width:0 auto;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100px;
-    font-style: normal;
-    font-size: 20px;
-    background-color:rgb(183, 120, 4)
-    } */
+  
 
 }
 
@@ -186,6 +172,27 @@ body{
     /* transition: 0.5s; */
     transition: 1s ease-in;
     cursor: pointer;
+}
+.good_read{
+    padding-top:50px ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+@media only screen and (min-width: 768px){
+    .good_read{
+        
+    }
+
+}
+.New_book_container{
+    display: flex;
+    overflow-x: auto;
+}
+.New_book_container::-webkit-scrollbar{
+    width: 0;
 }
 .good_Book_image_card{
     height:200px;
@@ -198,28 +205,31 @@ body{
     height:auto;
     min-width:230px;
     border:none;
-    margin-left: 50px;
+    margin-left: 20px;
     cursor: pointer;
     justify-content: center;
     background-color: #F3F1EE;
     
 }
-.good_container1{
+/* .good_container1{
     margin-left: 70px;
 }
 .good_container4{
     margin-right: 60px;
+} */
+.good_container5{
+    margin-right: 60px;
+    /* padding-right: 20px; */
 }
-.use_of_product{
+.use_of_product2{
     background-color: gray;
     border-radius: 20px;
     color: #F3F1EE;
     width: 100px;
+    margin-top: 20px;
     padding-left: 10px;
-    padding-right: 20px;
-    margin-right: 20px;
-    margin-left: -10px;
-    margin-top: -20px;
+    padding-right: 10px;
+    padding-top: -20px;
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
@@ -228,37 +238,46 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
-   font-size: 20px;
+    font-size: 20px;
+    margin-left: 10px;
 }
 .good_book_author{
     margin-top: -10px;
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
+    margin-left: 10px;
    
 
 }
 .good_book_price{
     font-size: 20px;
+    margin-left: 10px;
 }
 .good_del_price{
     color: gray;
     font-size: 15px;
+  
+
 }
 .good_add_to_cart{
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
     font-size: 15px;
-    color:rgb(183, 120, 4)
+    color:rgb(183, 120, 4);
+    margin-left: 10px;
 }
 
 .advisors_section{
     display: flex;
-    background-color: #F3F1EE;
-    margin-top: -50px;
     overflow-x: auto;
+    margin-top: -50px;
+    /* width: 500px; */
 
+}
+.advisors_section::-webkit-scrollbar{
+    width: 0 ;
 }
 .advisors_backers{
     font-family: "Roboto", sans-serif;
@@ -267,19 +286,19 @@ body{
     font-size: 50px;
     text-align: center;
     display: inline;
-    margin-top:200px;
+  
  
 }
 .advisor_container{
     height:auto;
-    min-width:230px;
+    min-width:210px;
     border:none;
-    margin: 5px;
     margin-top: 50px;
-    padding:10px;
+    padding-top: 50px;
     cursor: pointer;
     justify-content: center;
     background-color: #F3F1EE;
+    padding-left: 20px;
 }
 
 
@@ -288,19 +307,7 @@ body{
   width: 170px;
   border-radius:100%;
 }
-.one{
-    margin-left: 20px;
-}
-.two{
-    margin-left: 10px;
-}
-.four{
-    margin-left: 10px;
-}
-.third_advisor{
-    padding-right: 30px;
-    margin-right: 10px;
-}
+
 .Advisor_name{
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
@@ -312,19 +319,4 @@ body{
     font-weight: 100px;
     font-style: normal;
     font-size: 20px;
-}
-.good_read{
-    padding-top:50px ;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100px;
-    font-style: normal;
-    font-size: 50px;
-    text-align: center;
-}
-.New_book_container{
-    display: flex;
-    overflow-x: auto;
-}
-.New_book_container::-webkit-scrollbar{
-    width: 0;
 }
