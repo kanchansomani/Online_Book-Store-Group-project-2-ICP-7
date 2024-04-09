@@ -84,16 +84,52 @@
         <li class="items">Easy Returns
         </li>
 
+        <h1 class="branch-title">Our Branches</h1>
+        <div class="branch-container">
+            <img src="img 7.jpg" class="branch-img" id="img"/>
+            
+        </div>
+        <div class="branch-container">
+            <button class="btn-toggle branch-Pune" onclick="turnOnPune()">
+                Pune
+            </button>
+            <button class="btn-toggle branch-Mumbai" onclick="turnOnMumbai()">
+                Mumbai
+            </button>
+            <button class="btn-toggle branch-Nagpur" onclick="turnOnNagpur()">
+                Nagpur
+            </button>
+            <button class="btn-toggle branch-Nashik" onclick="turnOnNashik()">
+                Nashik
+            </button>
+        </div>
 
-
-
+   
 
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
 
+function turnOnPune (){
+        const ourBranch = document.getElementById('img');
+        ourBranch.src = ('img 6.jpg');
+    }
 
+    function turnOnMumbai (){
+        const ourBranch = document.getElementById('img');
+        ourBranch.src = ('img 6.jpg');
+    }
+
+    function turnOnNagpur (){
+        const ourBranch = document.getElementById('img');
+        ourBranch.src = ('img 7.jpg');
+    }
+
+    function turnOnNashik (){
+        const ourBranch = document.getElementById('img');
+        ourBranch.src = ('img 8.jpg');
+    }
 
 
             </script>

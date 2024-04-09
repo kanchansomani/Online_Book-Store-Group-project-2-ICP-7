@@ -9,7 +9,7 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 50px;
-    background-color: rgb(218, 213, 213);
+    background-color: #F3F1EE;
     color: black;
     text-align: center;
     margin: 10px;
@@ -48,7 +48,7 @@ h3 {
     font-weight: 700;
     font-style: normal;
     font-size: 50px;
-    background-color: rgb(218, 213, 213);
+    background-color: #F3F1EE;
     color: black;
     margin: 10px;
     padding: 10px;
@@ -60,3 +60,52 @@ h3 {
     margin-left: 15px;
     font-size: larger;
 }
+
+.branch-title {
+    text-align: center;
+}
+
+.branch-container {
+    background-color: #F3F1EE; 
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 10px;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 200px;
+}
+
+.btn-toggle {
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 40px;
+    border: none;
+    margin: 0 20px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(183, 120, 4); 
+}
+
+@media screen and (max-width:600px) {
+    .branch-container {
+        width: 100%;
+    }
+
+    .branch-img {
+        height: 150px;
+    }
+}
+
+.branch-img {
+    height: 250px;
+}
+
