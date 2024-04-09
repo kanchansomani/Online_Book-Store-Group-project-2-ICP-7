@@ -27,6 +27,9 @@ body{
     padding: 10px;
    
 } */
+.row{
+    padding-top: 100px;
+}
 .book_image:hover{
     transform: scale(0.9);
     transition: 1s;
@@ -65,7 +68,7 @@ body{
    
 }
 .container::-webkit-scrollbar{
-    width: 100%;
+    width:0;
 }
 /* .container .item{
     min-width: 110px;
@@ -159,7 +162,7 @@ body{
     background-color:rgb(183, 120, 4)
 }
 @media only screen and (min-width: 768px){
-    .view_all_btn{
+    /* .view_all_btn{
        
     margin-top: 20px;
     margin-left: 25%;
@@ -174,14 +177,80 @@ body{
     font-style: normal;
     font-size: 20px;
     background-color:rgb(183, 120, 4)
-    }
+    } */
 
 }
+
 .view_all_btn:hover{
     transform: scale(0.9);
     /* transition: 0.5s; */
     transition: 1s ease-in;
     cursor: pointer;
+}
+.good_Book_image_card{
+    height:200px;
+    margin-left:50px;
+    margin-top:20px;
+    box-shadow: 1px 0 5px 1px  rgb(159, 158, 158);
+
+}
+.good_product_conatiner{
+    height:auto;
+    min-width:230px;
+    border:none;
+    margin-left: 50px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #F3F1EE;
+    
+}
+.good_container1{
+    margin-left: 70px;
+}
+.good_container4{
+    margin-right: 60px;
+}
+.use_of_product{
+    background-color: gray;
+    border-radius: 20px;
+    color: #F3F1EE;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: -10px;
+    margin-top: -20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+}  
+.good_book_name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+   font-size: 20px;
+}
+.good_book_author{
+    margin-top: -10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+   
+
+}
+.good_book_price{
+    font-size: 20px;
+}
+.good_del_price{
+    color: gray;
+    font-size: 15px;
+}
+.good_add_to_cart{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 15px;
+    color:rgb(183, 120, 4)
 }
 
 .advisors_section{
@@ -189,6 +258,7 @@ body{
     background-color: #F3F1EE;
     margin-top: -50px;
     overflow-x: auto;
+
 }
 .advisors_backers{
     font-family: "Roboto", sans-serif;
@@ -197,18 +267,39 @@ body{
     font-size: 50px;
     text-align: center;
     display: inline;
+    margin-top:200px;
+ 
 }
 .advisor_container{
-   
-    padding-left:20px;
-    margin-top:50px;
+    height:auto;
+    min-width:230px;
+    border:none;
+    margin: 5px;
+    margin-top: 50px;
+    padding:10px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #F3F1EE;
 }
+
 
 .advisor_img{
   height: 170px;
   width: 170px;
-
   border-radius:100%;
+}
+.one{
+    margin-left: 20px;
+}
+.two{
+    margin-left: 10px;
+}
+.four{
+    margin-left: 10px;
+}
+.third_advisor{
+    padding-right: 30px;
+    margin-right: 10px;
 }
 .Advisor_name{
     font-family: "Roboto", sans-serif;
@@ -223,6 +314,7 @@ body{
     font-size: 20px;
 }
 .good_read{
+    padding-top:50px ;
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
