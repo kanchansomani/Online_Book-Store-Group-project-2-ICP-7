@@ -66,7 +66,7 @@ h3 {
 }
 
 .branch-container {
-    background-color: #F3F1EE; 
+    background-color:#DED0B6;    
     width: 600px;
     display: flex;
     justify-content: center;
@@ -109,6 +109,6 @@ h3 {
     height: 250px;
 }
 
-.col-3{
-    background-color: #F3F1EE;
+.col-4{
+    background-color: #FAEED1;
 }
