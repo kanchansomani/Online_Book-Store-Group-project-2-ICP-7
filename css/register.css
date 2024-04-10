@@ -1,7 +1,7 @@
 .form-container{
     padding:10px;
     display:flex;
-    border:2px solid rgb(99, 137, 156);
+    border:2px solid rgb(99, 137, 156); 
   border-radius:20px;
   box-shadow: 10px 10px 10px 10px  gray;
 }
@@ -84,9 +84,11 @@ html{
 }
 
 .img{
-    height:700px;
+    height:500px;
     
 }
+
+
 
 
 
