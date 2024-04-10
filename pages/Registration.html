@@ -17,18 +17,13 @@
     <div class="form-container">
         
 
-        <form actions="" method="post">
+        <form actions="" method="post"  class="form">
             <b><h3>Register now</h3></b>
             <input type="text" name="name" placeholder="enter your fullname" required class="box form-control">
 
             <input type="email" name="email" placeholder="enter your email" required class="box form-control">
 
-            <input type="radio" name="gender" id="male">
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="female">
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="other">
-            <label for="other">other</label>
+            
 
             <input type="number" name="phone no." placeholder="enter your phone no." required class="box form-control">
 
@@ -40,10 +35,12 @@
 
             <input type="password" name="password" placeholder="confirm your password" required class="box form-control">
 
-            <select name="user_type" class="box">
-                <option  value="user">user</option>
-                <option  value="admin">admin</option>
-            </select>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">other</label>
 
             <input type="submit" name="submit" value="register now" class="btn form-control">
             <p>already have an account? <a href="login.html" >Login now</a> </p>
