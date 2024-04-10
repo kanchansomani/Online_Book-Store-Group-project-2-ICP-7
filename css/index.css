@@ -52,12 +52,16 @@ body{
 {
     .Book_deals
    {
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 10px;
     text-align: center;
     
    }
 }
+/* .Time_Remaining_Section{
+    display: flex;
+    flex-direction: row;
+} */
 .time_ramaining{
     color:rgb(183, 120, 4);
     text-align: center;
@@ -65,7 +69,18 @@ body{
     font-weight: 100px;
     font-style: normal;
     font-size: 30px;
-    margin-top: -30px;
+    margin-top:-20px;
+    margin-bottom: 10px;
+}
+.time{
+   
+    justify-items: center;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+
+  
 }
 @media screen and (max-width:768px)
 {
@@ -74,7 +89,7 @@ body{
     color:rgb(183, 120, 4);
     text-align: center;
     
-    font-size: 15px;
+    font-size: 25px;
     margin-top: -20px;
    }
 }
@@ -83,6 +98,7 @@ body{
    
     display:flex;
     overflow-x: auto;
+    margin-top: 20px;
    
 }
 .container::-webkit-scrollbar{
