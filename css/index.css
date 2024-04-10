@@ -208,6 +208,61 @@ body{
     transition: 1s ease-in;
     cursor: pointer;
 }
+
+
+.service-header  {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 60px;
+   
+}
+.services {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;  
+    margin-top: -40px;
+}
+.card1 {
+    border:none;
+    height: 200px;
+    width: 300px;
+    background-color: #FAEED1;   
+    padding: 30px;
+    margin: 40px;
+    border-radius: 5px;
+}
+.card1:hover {
+    margin-top: -3px;
+    transition: 1.5s;
+    transform: scale(0.9);
+}
+
+.card1 img {
+    height: 40px;
+}
+
+.card1 span {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 0;
+    color: rgb(0, 0, 0);
+}
+.card1 p {
+    text-align: justify;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    /* color: rgb(0, 0, 0); */
+}
+
+
 .good_read{
     padding-top:50px ;
     font-family: "Roboto", sans-serif;
