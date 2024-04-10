@@ -1,13 +1,10 @@
 .form-container{
-    align-items: center;
-    justify-content: center;
     padding:10px;
     display:flex;
-    border:2px solid rgb(99, 137, 156);
+    border:2px solid rgb(99, 137, 156); 
   border-radius:20px;
   box-shadow: 10px 10px 10px 10px  gray;
 }
-
 .btn,
 .option-btn,
 .delete-btn,
@@ -40,29 +37,27 @@
 }
 
 html{
-    font-size: 62.5%;
-    overflow-x: hidden;
+    font-size:x-small;
 }
+    
 
 .form-container  form{
     padding: 2rem;
-    width: 50rem;
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    background-color: white;
+    width: 500px;
+    border-radius:10px;
     text-align: center;
 
 }
 
 .form-container  form h3{
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    
     text-transform:uppercase ;
     color: black;
 }
 
 .form-container  form .box{
-    width:100%;
+    
     border-radius: .5rem;
     background-color: light-bg;
     padding: 1.2rem 1.4rem;
@@ -89,8 +84,11 @@ html{
 }
 
 .img{
-    height:600px;
+    height:500px;
+    
 }
+
+
 
 
 
