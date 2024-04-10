@@ -1,0 +1,11 @@
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+li,span,strong{
+    font-size: larger;
+    justify-content: center;
+    text-align: center;
+}
