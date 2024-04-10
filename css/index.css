@@ -73,11 +73,13 @@ body{
 }
 .time{
     text-align: center;
+    justify-content: center;
+    justify-items: center;
     color:rgb(183, 120, 4);
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
-    margin-top: -30px;
+    /* margin-top: 30px; */
 }
 @media screen and (max-width:768px)
 {
