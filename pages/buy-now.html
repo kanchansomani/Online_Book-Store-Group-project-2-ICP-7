@@ -76,10 +76,12 @@
           </div>
           <span class="text-secondary ms-5 mt-2">Pay by any UPI app</span>
            <br><hr>
-          <input type="radio" name="payment" id="wallets" class="form-check-input mt-3">
+          <input type="radio" name="payment" id="wallets" class="form-check-input mt-3" onclick="wallets()">
           <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/batman-returns/logos/Wallets.gif" alt="wallets" class="ms-2"  width="40px">
           <label for="wallets" class="ms-2">Wallets</label>
-          <br><hr>
+          <span id="wallet">
+          </span>
+          <hr>
           <input type="radio" name="payment" id="card" class="form-check-input mt-3">
           <label for="card" class="ms-2 mt-2">Credit / Debit / ATM Card</label> <br>
           <span class="text-secondary ms-4 ps-1 mt-2">Add and secure cards as per RBI guidelines</span>
@@ -249,7 +251,12 @@ style="background-color: #eceff1"
   <script>
     function upi() {
       let upiId = document.getElementById("upiID");
-      upiId.innerHTML = "<div class='ms-5 mt-2 mb-2'> <span>Choose an Payment Option</span> <br> <input type='radio' value='phonepe' name='upi' class='form-check-input mt-2'> <label for='phonepe' class='ms-3'> PhonePe</label> <br> <input type='radio' value='yourId' name='upi' class='form-check-input mt-2'> <label for='yourId' class='ms-3'> Your UPI ID</label> </div>"
+      upiId.innerHTML = "<div class='ms-5 mt-2 mb-2'> <span>Choose an Payment Option</span> <br> <input type='radio' value='phonepe' name='upi' class='form-check-input mt-2'> <label for='phonepe' class='ms-3'> PhonePe</label> <br> <input type='radio' value='yourId' name='upi' class='form-check-input mt-2'> <label for='yourId' class='ms-3'> Your UPI ID</label> </div>";
+    }
+
+    function wallets() {
+      let wall = document.getElementById("wallet");
+      wall.innerHTML = "<br><div class='ms-5 mt-2 mb-2'> <span>Choose an Payment Option</span> <br> <input type='radio' value='phonepe' name='upi' class='form-check-input mt-2' disabled> <label for='phonepe' class='ms-3'> PhonePe</label> <br> <span class='text-secondary ms-4 mt-2'>Currently Unavaliable</span>";
     }
   </script>
   <script
