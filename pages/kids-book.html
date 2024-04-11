@@ -2,103 +2,370 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./../css/kids-books.css">
+    <meta charset="UTF-8">
+    <style> 
+   </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kids-books</title>
+    <link rel="stylesheet" href="./../css/best-sellers.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-NK1dEuODToUiRjEBOgU6PzZfl7x5tcsNusiw1cnXCSwOo/muH6xgQYjWbzJTKyfg" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <h1 class="book-tilte">Kids Books Store</h1>
-  <div class="container">
-    <div class="first_container product_conatiner">
-      <span class="use_of_product">Gently Used 70%</span>
-      <img class="Book_image_card " src="./../images/kids-books-imgs/img1.jpg">
-      <p class="book_name">Death Of the River</p>
-      <p class="book_author">by Clare Chase</p>
-      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-      <p class="add_to_cart">Add to cart</p>
-    </div>
+    <h1 class="book-tilte">Kid's Book</h1>
+    <div class="row">
+        <div class="col-12 d-flex">
+            <!--sidebar-->
+            <div class="sidebar p-0 brown-bg  ">
+                <h1>Filters</h1>
+                <h3>Price</h3>
+                <button onclick="lowTohigh()">Low to High</button>
+                <button onclick="highToLow()">High to Low</button>
+                <h3>Writer's</h3>
+                <div >
+                    <button onclick="JoyceCarolates()" class="centered-button">Joyce Carol Oates</button>
+                    <button onclick="JamesKelman()" class="centered-button">James Kelman</button>
+                    <button onclick="NicholasdeLange()" class="centered-button">Nicholas de Lange</button>
+                    <button onclick="SabrinaGendron()" class="centered-button">Sabrina Gendron</button>
+                    <button onclick="JoyceCarolates()" class="centered-button">Joyce Carol Oates</button>
+                </div>
+            </div>
 
- <div class="first_container product_conatiner">
-      <span class="use_of_product">Gently Used 83%</span>
-      <img class="Book_image_card " src="./../images/kids-books-imgs/img2.jpg">
-      <p class="book_name"> Puppy and Small Girl</p>
-      <p class="book_author">by Adhip Jain</p>
-      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-      <p class="add_to_cart">Add to cart</p>
-    </div>
+            <div class="container">
+                <div id="card1">
+                <div class="first_container product_conatiner">
+                  <span class="use_of_product">Gently Used 70%</span>
+                  <img class="Book_image_card " src="./../images/kids-books-imgs/img1.jpg">
+                  <p class="book_name">Death Of the River</p>
+                  <p class="book_author">by Clare Chase</p>
+                  <p class="book_price"><del class="del_price">Rs.550</del> Rs.249</p>
+                  <p class="add_to_cart">Add to cart</p>
+                </div></div>
+                <div id="card2">
+             <div class="first_container product_conatiner">
+                  <span class="use_of_product">Gently Used 83%</span>
+                  <img class="Book_image_card " src="./../images/kids-books-imgs/img2.jpg">
+                  <p class="book_name"> Puppy and Small Girl</p>
+                  <p class="book_author">by Adhip Jain</p>
+                  <p class="book_price"><del class="del_price">Rs.200</del> Rs.449</p>
+                  <p class="add_to_cart">Add to cart</p>
+                </div></div>
+                <div id="card3">
+              <div class="first_container product_conatiner">
+                  <span class="use_of_product">Gently Used 72%</span>
+                  <img class="Book_image_card " src="./../images/kids-books-imgs/img3.jpg">
+                  <p class="book_name">The Cat in the Hat</p>
+                  <p class="book_author">by Dr. Seuss</p>
+                  <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
+                  <p class="add_to_cart">Add to cart</p>
+                </div></div>
+                <div id="card4">
+              <div class="first_container product_conatiner">
+                  <span class="use_of_product">Gently Used 79%</span>
+                  <img class="Book_image_card " src="./../images/kids-books-imgs/img4.webp">
+                  <p class="book_name">Sharing the light</p>
+                  <p class="book_author">by David Adam</p>
+                  <p class="book_price"><del class="del_price">Rs.599</del> Rs.399</p>
+                  <p class="add_to_cart">Add to cart</p>
+                </div></div>
+                <div id="card5">
+              <div class="first_container product_conatiner">
+                  <span class="use_of_product">Gently Used 84%</span>
+                  <img class="Book_image_card" src="./../images/kids-books-imgs/img5.webp">
+                  <p class="book_name">High and Dry</p>
+                  <p class="book_author">by Sabrina Gendron</p>
+                  <p class="book_price"><del class="del_price">Rs.299</del> Rs.344</p>
+                  <p class="add_to_cart">Add to cart</p>
+            
+              </div></div>
+              <div id="card6">
+                <div class="first_container product_conatiner">
+                  <span class="use_of_product">Gently Used 93%</span>
+                  <img class="Book_image_card" src="./../images/kids-books-imgs/img.8.webp">
+                  <p class="book_name">Charlotte's Web</p>
+                  <p class="book_author">by E.B. White</p>
+                  <p class="book_price"><del class="del_price">Rs.599</del> Rs.499</p>
+                  <p class="add_to_cart">Add to cart</p>
+            
+              </div></div>
+              <div id="card7">
+                <div class="first_container product_conatiner">
+                  <span class="use_of_product">Gently Used 75%</span>
+                  <img class="Book_image_card " src="./../images/kids-books-imgs/img7.webp">
+                  <p class="book_name">Miraculous</p>
+                  <p class="book_author">by Jess Redman</p>
+                  <p class="book_price"><del class="del_price">Rs.599</del> Rs.270</p>
+                  <p class="add_to_cart">Add to cart</p>
+                </div></div>
+                <div id="card8">
+              <div class="first_container product_conatiner">
+                  <span class="use_of_product">Gently Used 86%</span>
+                  <img class="Book_image_card " src="./../images/kids-books-imgs/img.9.jpg">
+                  <p class="book_name">Winnie-the-Pooh</p>
+                  <p class="book_author">by A.A. Milne</p>
+                  <p class="book_price"><del class="del_price">Rs.599</del> Rs.349</p>
+                  <p class="add_to_cart">Add to cart</p>
+                </div></div>
+                <div id="card9">
+              <div class="first_container product_conatiner">
+                  <span class="use_of_product">Gently Used 81%</span>
+                  <img class="Book_image_card" src="./../images/kids-books-imgs/img10.webp">
+                  <p class="book_name">Journey To the Stars</p>
+                  <p class="book_author">by Matt Zhang</p>
+                  <p class="book_price"><del class="del_price">Rs.599</del> Rs.500</p>
+                  <p class="add_to_cart">Add to cart</p>
+                </div></div>
+                <div id="card10">
+              <div class="first_container product_conatiner">
+                  <span class="use_of_product">Gently Used 71%</span>
+                  <img class="Book_image_card" src="./../images/kids-books-imgs/img6.jpg">
+                  <p class="book_name">Owl At Home</p>
+                  <p class="book_author">by Amold Lobel</p>
+                  <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
+                  <p class="add_to_cart">Add to cart</p>
+                </div></div>
+              </div>
+            <script>
+                function lowTohigh() {
+                    let card1 = document.getElementById("card1");
+                    let card2 = document.getElementById("card2");
+                    let card3 = document.getElementById("card3");
+                    let card4 = document.getElementById("card4");
+                    let card5 = document.getElementById("card5");
+                    let card6 = document.getElementById("card6");
+                    let card7 = document.getElementById("card7");
+                    let card8 = document.getElementById("card8");
+                    let card9 = document.getElementById("card9");
+                    let card10 = document.getElementById("card10");
 
-  <div class="first_container product_conatiner">
-      <span class="use_of_product">Gently Used 72%</span>
-      <img class="Book_image_card " src="./../images/kids-books-imgs/img3.jpg">
-      <p class="book_name">The Cat in the Hat</p>
-      <p class="book_author">by Dr. Seuss</p>
-      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-      <p class="add_to_cart">Add to cart</p>
-    </div>
+                    card1.innerHTML = `
+                    <div class="first_container product_conatiner">
+                      <span class="use_of_product">Gently Used 70%</span>
+                      <img class="Book_image_card " src="./../images/kids-books-imgs/img1.jpg">
+                      <p class="book_name">Death Of the River</p>
+                      <p class="book_author">by Clare Chase</p>
+                      <p class="book_price"><del class="del_price">Rs.550</del> Rs.249</p>
+                      <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+                    card2.innerHTML = `
+                    <div class="first_container product_conatiner">
+                      <span class="use_of_product">Gently Used 72%</span>
+                      <img class="Book_image_card " src="./../images/kids-books-imgs/img3.jpg">
+                      <p class="book_name">The Cat in the Hat</p>
+                      <p class="book_author">by Dr. Seuss</p>
+                      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
+                      <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+                    card3.innerHTML = `
+                    <div class="first_container product_conatiner">
+                      <span class="use_of_product">Gently Used 75%</span>
+                      <img class="Book_image_card " src="./../images/kids-books-imgs/img7.webp">
+                      <p class="book_name">Miraculous</p>
+                      <p class="book_author">by Jess Redman</p>
+                      <p class="book_price"><del class="del_price">Rs.599</del> Rs.270</p>
+                      <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+                    card4.innerHTML = `
+                    <div class="first_container product_conatiner">
+                      <span class="use_of_product">Gently Used 71%</span>
+                      <img class="Book_image_card" src="./../images/kids-books-imgs/img6.jpg">
+                      <p class="book_name">Owl At Home</p>
+                      <p class="book_author">by Amold Lobel</p>
+                      <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
+                      <p class="add_to_cart">Add to cart</p>
+                    </div>
+         
+        `;
+                    card5.innerHTML = `
+                    <div class="first_container product_conatiner">
+                      <span class="use_of_product">Gently Used 84%</span>
+                      <img class="Book_image_card" src="./../images/kids-books-imgs/img5.webp">
+                      <p class="book_name">High and Dry</p>
+                      <p class="book_author">by Sabrina Gendron</p>
+                      <p class="book_price"><del class="del_price">Rs.299</del> Rs.344</p>
+                      <p class="add_to_cart">Add to cart</p>
+                
+                  </div>
+        `;
+                    card6.innerHTML = `
+                    <div class="first_container product_conatiner">
+                      <span class="use_of_product">Gently Used 86%</span>
+                      <img class="Book_image_card " src="./../images/kids-books-imgs/img.9.jpg">
+                      <p class="book_name">Winnie-the-Pooh</p>
+                      <p class="book_author">by A.A. Milne</p>
+                      <p class="book_price"><del class="del_price">Rs.599</del> Rs.349</p>
+                      <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+                    card7.innerHTML = `
+                    <div class="first_container product_conatiner">
+                      <span class="use_of_product">Gently Used 79%</span>
+                      <img class="Book_image_card " src="./../images/kids-books-imgs/img4.webp">
+                      <p class="book_name">Sharing the light</p>
+                      <p class="book_author">by David Adam</p>
+                      <p class="book_price"><del class="del_price">Rs.599</del> Rs.399</p>
+                      <p class="add_to_cart">Add to cart</p>
+                    </div>
+         
+        `;
+                    card8.innerHTML = `
+                    <div class="first_container product_conatiner">
+                      <span class="use_of_product">Gently Used 83%</span>
+                      <img class="Book_image_card " src="./../images/kids-books-imgs/img2.jpg">
+                      <p class="book_name"> Puppy and Small Girl</p>
+                      <p class="book_author">by Adhip Jain</p>
+                      <p class="book_price"><del class="del_price">Rs.200</del> Rs.449</p>
+                      <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+                    card9.innerHTML = `
+                    <div class="first_container product_conatiner">
+                      <span class="use_of_product">Gently Used 93%</span>
+                      <img class="Book_image_card" src="./../images/kids-books-imgs/img.8.webp">
+                      <p class="book_name">Charlotte's Web</p>
+                      <p class="book_author">by E.B. White</p>
+                      <p class="book_price"><del class="del_price">Rs.599</del> Rs.499</p>
+                      <p class="add_to_cart">Add to cart</p>
+                
+                  </div>_to_cart">Add to cart</p>
+                    </div>
+        `;
+                    card10.innerHTML = `
+                    <div class="first_container product_conatiner">
+                      <span class="use_of_product">Gently Used 81%</span>
+                      <img class="Book_image_card" src="./../images/kids-books-imgs/img10.webp">
+                      <p class="book_name">Journey To the Stars</p>
+                      <p class="book_author">by Matt Zhang</p>
+                      <p class="book_price"><del class="del_price">Rs.599</del> Rs.500</p>
+                      <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+                }
+                function highToLow() {
+                  let card1 = document.getElementById("card1");
+                  let card2 = document.getElementById("card2");
+                  let card3 = document.getElementById("card3");
+                  let card4 = document.getElementById("card4");
+                  let card5 = document.getElementById("card5");
+                  let card6 = document.getElementById("card6");
+                  let card7 = document.getElementById("card7");
+                  let card8 = document.getElementById("card8");
+                  let card9 = document.getElementById("card9");
+                  let card10 = document.getElementById("card10");
 
-  <div class="first_container product_conatiner">
-      <span class="use_of_product">Gently Used 79%</span>
-      <img class="Book_image_card " src="./../images/kids-books-imgs/img4.webp">
-      <p class="book_name">Sharing the light</p>
-      <p class="book_author">by David Adam</p>
-      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-      <p class="add_to_cart">Add to cart</p>
-    </div>
-
-  <div class="first_container product_conatiner">
-      <span class="use_of_product">Gently Used 84%</span>
-      <img class="Book_image_card" src="./../images/kids-books-imgs/img5.webp">
-      <p class="book_name">High and Dry</p>
-      <p class="book_author">by Sabrina Gendron</p>
-      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-      <p class="add_to_cart">Add to cart</p>
-
-  </div>
-    <div class="first_container product_conatiner">
-      <span class="use_of_product">Gently Used 93%</span>
-      <img class="Book_image_card" src="./../images/kids-books-imgs/img.8.webp">
-      <p class="book_name">Charlotte's Web</p>
-      <p class="book_author">by E.B. White</p>
-      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-      <p class="add_to_cart">Add to cart</p>
-
-  </div>
-    <div class="first_container product_conatiner">
-      <span class="use_of_product">Gently Used 75%</span>
-      <img class="Book_image_card " src="./../images/kids-books-imgs/img7.webp">
-      <p class="book_name">Miraculous</p>
-      <p class="book_author">by Jess Redman</p>
-      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-      <p class="add_to_cart">Add to cart</p>
-    </div>
-    
-  <div class="first_container product_conatiner">
-      <span class="use_of_product">Gently Used 86%</span>
-      <img class="Book_image_card " src="./../images/kids-books-imgs/img.9.jpg">
-      <p class="book_name">Winnie-the-Pooh</p>
-      <p class="book_author">by A.A. Milne</p>
-      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-      <p class="add_to_cart">Add to cart</p>
-    </div>
-    
-  <div class="first_container product_conatiner">
-      <span class="use_of_product">Gently Used 81%</span>
-      <img class="Book_image_card" src="./../images/kids-books-imgs/img10.webp">
-      <p class="book_name">Journey To the Stars</p>
-      <p class="book_author">by Matt Zhang</p>
-      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-      <p class="add_to_cart">Add to cart</p>
-    </div>
-    
-  <div class="first_container product_conatiner">
-      <span class="use_of_product">Gently Used 71%</span>
-      <img class="Book_image_card" src="./../images/kids-books-imgs/img6.jpg">
-      <p class="book_name">Owl At Home</p>
-      <p class="book_author">by Amold Lobel</p>
-      <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-      <p class="add_to_cart">Add to cart</p>
-    </div>
-  </div>
+                  card10.innerHTML = `
+                  <div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 70%</span>
+                    <img class="Book_image_card " src="./../images/kids-books-imgs/img1.jpg">
+                    <p class="book_name">Death Of the River</p>
+                    <p class="book_author">by Clare Chase</p>
+                    <p class="book_price"><del class="del_price">Rs.550</del> Rs.249</p>
+                    <p class="add_to_cart">Add to cart</p>
+                  </div>
+      `;
+                  card9.innerHTML = `
+                  <div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 72%</span>
+                    <img class="Book_image_card " src="./../images/kids-books-imgs/img3.jpg">
+                    <p class="book_name">The Cat in the Hat</p>
+                    <p class="book_author">by Dr. Seuss</p>
+                    <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
+                    <p class="add_to_cart">Add to cart</p>
+                  </div>
+      `;
+                  card8.innerHTML = `
+                  <div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 75%</span>
+                    <img class="Book_image_card " src="./../images/kids-books-imgs/img7.webp">
+                    <p class="book_name">Miraculous</p>
+                    <p class="book_author">by Jess Redman</p>
+                    <p class="book_price"><del class="del_price">Rs.599</del> Rs.270</p>
+                    <p class="add_to_cart">Add to cart</p>
+                  </div>
+      `;
+                  card7.innerHTML = `
+                  <div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 71%</span>
+                    <img class="Book_image_card" src="./../images/kids-books-imgs/img6.jpg">
+                    <p class="book_name">Owl At Home</p>
+                    <p class="book_author">by Amold Lobel</p>
+                    <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
+                    <p class="add_to_cart">Add to cart</p>
+                  </div>
+       
+      `;
+                  card6.innerHTML = `
+                  <div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 84%</span>
+                    <img class="Book_image_card" src="./../images/kids-books-imgs/img5.webp">
+                    <p class="book_name">High and Dry</p>
+                    <p class="book_author">by Sabrina Gendron</p>
+                    <p class="book_price"><del class="del_price">Rs.299</del> Rs.344</p>
+                    <p class="add_to_cart">Add to cart</p>
+              
+                </div>
+      `;
+                  card5.innerHTML = `
+                  <div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 86%</span>
+                    <img class="Book_image_card " src="./../images/kids-books-imgs/img.9.jpg">
+                    <p class="book_name">Winnie-the-Pooh</p>
+                    <p class="book_author">by A.A. Milne</p>
+                    <p class="book_price"><del class="del_price">Rs.599</del> Rs.349</p>
+                    <p class="add_to_cart">Add to cart</p>
+                  </div>
+      `;
+                  card4.innerHTML = `
+                  <div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 79%</span>
+                    <img class="Book_image_card " src="./../images/kids-books-imgs/img4.webp">
+                    <p class="book_name">Sharing the light</p>
+                    <p class="book_author">by David Adam</p>
+                    <p class="book_price"><del class="del_price">Rs.599</del> Rs.399</p>
+                    <p class="add_to_cart">Add to cart</p>
+                  </div>
+       
+      `;
+                  card3.innerHTML = `
+                  <div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 83%</span>
+                    <img class="Book_image_card " src="./../images/kids-books-imgs/img2.jpg">
+                    <p class="book_name"> Puppy and Small Girl</p>
+                    <p class="book_author">by Adhip Jain</p>
+                    <p class="book_price"><del class="del_price">Rs.200</del> Rs.449</p>
+                    <p class="add_to_cart">Add to cart</p>
+                  </div>
+      `;
+                  card2.innerHTML = `
+                  <div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 93%</span>
+                    <img class="Book_image_card" src="./../images/kids-books-imgs/img.8.webp">
+                    <p class="book_name">Charlotte's Web</p>
+                    <p class="book_author">by E.B. White</p>
+                    <p class="book_price"><del class="del_price">Rs.599</del> Rs.499</p>
+                    <p class="add_to_cart">Add to cart</p>
+              
+                </div>_to_cart">Add to cart</p>
+                  </div>
+      `;
+                  card1.innerHTML = `
+                  <div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 81%</span>
+                    <img class="Book_image_card" src="./../images/kids-books-imgs/img10.webp">
+                    <p class="book_name">Journey To the Stars</p>
+                    <p class="book_author">by Matt Zhang</p>
+                    <p class="book_price"><del class="del_price">Rs.599</del> Rs.500</p>
+                    <p class="add_to_cart">Add to cart</p>
+                  </div>
+      `;
+                }
+            </script>
 </body>
+
 </html>
