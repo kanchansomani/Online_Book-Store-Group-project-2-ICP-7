@@ -12,3 +12,20 @@
 .price-fs {
     font-size: 18px;
 }
+
+.inp-card-num {
+    width: 250px;
+}
+
+.inp-card-valid {
+    width: 100px;
+}
+
+.inp-card-cvv {
+    width: 100px;
+}
+
+.card-btn {
+    width: 120px;
+    font-size: 18px;
+}
