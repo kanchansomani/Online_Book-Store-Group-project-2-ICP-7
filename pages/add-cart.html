@@ -13,11 +13,13 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body style="background-color: #eef4f7;">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="nav navbar navbar-expand-lg fixed-top fw-medium">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Readz</a>
+        <a class="navbar-brand" href="../index.html">
+          <img src="../logo/wonder-words.png" class="rounded-3" alt="wonder-words" width="150px" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,10 +34,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">New Arrivals</a>
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -47,11 +46,13 @@
               >
                 Find Your Kind
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Best Sellers</a></li>
-                <li><a class="dropdown-item" href="#">Fiction Books</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Todays's Deals</a></li>
+              <ul class="dropdown-menu px-3">
+                <li><a class="dropdown-item dropdown-list" href="#">Todays's Deals</a></li>
+                <li><a class="dropdown-item dropdown-list" href="./new-arrrival.html">New Arrivals</a></li>
+                <li><a class="dropdown-item dropdown-list" href="./bestseller.html">Best Sellers</a></li>
+                <li><a class="dropdown-item dropdown-list" href="#">Fiction Books</a></li>
+                <li><a class="dropdown-item dropdown-list" href="./Non-Fiction-book.html">Non-Fiction Books</a></li>
+                <li><a class="dropdown-item dropdown-list" href="./kids-book.html">Kids Books</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -62,19 +63,19 @@
           </ul>
           <form class="d-flex search" role="search">
             <input
-              class="form-control me-2 rounded-4"
+              class="form-control me-2 rounded-3"
               style="width: 350px"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-primary rounded-4" type="submit">
-              Search
+            <button class="btn mb-1 rounded-4" type="submit">
+              <img src="../logo/search.png" alt="search" width="23px">
             </button>
           </form>
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active mx-2" href="#"
+              <a class="nav-link active mx-2" href="./login.html"
                 ><img src="../logo/login.png" alt="login" width="30px"
               /></a>
             </li>
@@ -90,7 +91,7 @@
     <!-- Navbar End -->
 
     <p class="m-3 fs-4 fw-bolder">My Shopping Cart</p>
-    <div class="cart m-5 p-5 border border-secondary rounded-4 bg-white" id="cart">
+    <div class="cart m-5 p-5 border border-secondary rounded-3 bg-white shadow-lg" id="cart">
       <h3>My Shopping Cart</h3>
       <div class="px-5 d-flex justify-content-between align-items-center">
         <div class="d-flex justify-content-evenly">
@@ -137,15 +138,15 @@
     <!-- Footer -->
     <footer
       class="text-center text-lg-start text-dark"
-      style="background-color: #eceff1"
+      style="background-color: #fcdad2"
     >
       <!-- Section: Social media -->
       <section
         class="d-flex justify-content-between p-4 text-white"
-        style="background-color: rgb(218, 213, 213)"
+        style="background-color: #fcdcdc"
       >
         <!-- Left -->
-        <div class="me-5">
+        <div class="me-5 text-black">
           <span>Get connected with us on social networks:</span>
         </div>
         <!-- Left -->
@@ -301,7 +302,15 @@
 
       function remove() {
         const empty = document.getElementById("cart");
-        empty.innerHTML = '\n <h3>My Shopping Cart</h3> \n <div> <p class="text-center mt-4"> Your Shopping Cart is currently empty. To add Books in your Shopping Cart, start by searching or browsing through our book store. When a book interests you, click on Add to Cart button. Books in Shopping Cart always reflect the most recent price, displayed on their product pages. </p> <p class="text-center"> Please <a href="../index.html">Click here</a> to continue shopping </p> </div>';
+        empty.innerHTML = `\n <h3>My Shopping Cart</h3>
+         <div> 
+          <p class="text-center mt-4"> 
+            Your Shopping Cart is currently empty. To add Books in your Shopping Cart, start by searching or browsing through our book store. When a book interests you, click on Add to Cart button. Books in Shopping Cart always reflect the most recent price, displayed on their product pages. 
+          </p> 
+          <p class="text-center">
+             Please <a href="../index.html">Click here</a> to continue shopping 
+            </p> 
+          </div>`;
       }
     </script>
     <script
