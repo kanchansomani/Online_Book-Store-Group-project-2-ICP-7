@@ -9,7 +9,8 @@
    
     display:flex;
     flex-wrap: wrap;
-   
+    margin: 30px auto;
+    
 }
 
 
@@ -30,7 +31,7 @@
     cursor: pointer;
     justify-content: center;
     background-color: #F3F1EE;
-     margin: 50px auto;
+    
 }
 
 .use_of_product{
@@ -99,6 +100,7 @@
     border: none;
     border-radius: 5px;
     border-radius: 20px;
+    
   }
   
   .sidebar button:hover {
@@ -108,4 +110,9 @@
   .sidebar .me-3 {
     color: #333;
   }
+  .centered-button {
+    display: block;
+    margin: 0 auto;
+}
+  
   
