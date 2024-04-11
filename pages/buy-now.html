@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/buy-now.css">
     <link rel="stylesheet" href="../css/header.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -15,7 +16,7 @@
 <body>
 
   <!-- Navbar -->
- <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Readz</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,12 +59,67 @@
       </ul>
     </div>
   </div>
-</nav>
-<!-- Navbar End -->
-    <h3>Buy Now</h3>
+  </nav>
+  <!-- Navbar End -->
+
+  <div class="d-flex justify-content-center">
+    <div class="payment-container border border-black rounded-3">
+      <h3 class="p-3 ps-4 bg-primary rounded-top-3 text-white">Payment Options</h3>
+      <div class="m-3 ms-4">
+        <div>
+          <input type="radio" value="UPI" id="upi" name="payment" class="form-check-input mt-2" onclick="upi()">
+          <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/batman-returns/logos/UPI.gif" alt="upi" class="ms-2" width="40px" >
+          <label for="upi" class="ms-2">UPI</label>
+          <br>
+          <div id="upiID">
+
+          </div>
+          <span class="text-secondary ms-5 mt-2">Pay by any UPI app</span>
+           <br><hr>
+          <input type="radio" name="payment" id="wallets" class="form-check-input mt-3" onclick="wallets()">
+          <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/batman-returns/logos/Wallets.gif" alt="wallets" class="ms-2"  width="40px">
+          <label for="wallets" class="ms-2">Wallets</label>
+          <span id="wallet">
+
+          </span>
+          <hr>
+          <input type="radio" name="payment" id="card" class="form-check-input mt-3" onclick="cards()">
+          <label for="card" class="ms-2 mt-2">Credit / Debit / ATM Card</label> <br>
+          <div id="atm-card">
+            
+          </div>
+          <span class="text-secondary ms-4 ps-1 mt-2">Add and secure cards as per RBI guidelines</span>
+          <br><hr>
+          <input type="radio" name="payment" id="banking" class="form-check-input mt-3">
+          <label for="card" class="ms-2 mt-2">Net Banking</label> <br>
+          <span class="text-secondary ms-4 ps-1 mt-2">This instrument has low success, use UPI or cards for better experience</span>
+          <br><hr>
+          <input type="radio" name="payment" id="emi" class="form-check-input mt-3">
+          <label for="card" class="ms-2 mt-2">EMI (Easy Installments)</label> <br>
+          <hr>
+          <input type="radio" name="payment" id="cod" class="form-check-input mt-3">
+          <label for="card" class="ms-2 mt-2 mb-2">Cash on Delivery</label> <br>
+        </div>
+      </div>
+    </div>
+    <div class="price-container border border-secondary rounded-3">
+      <h4 class="pt-3 ps-4">Price Details</h4>
+      <hr>
+      <p class="text-left ms-4">
+        <span class="price-fs fw-small pe-5">Price (1 item) </span> <span class="price-fs ps-5 fw-small">₹392</span>
+      </p>
+      <p class="text-left ms-4">
+        <span class="price-fs fw-small pe-5">Delivery Charges </span> <span class="price-fs ps-4 fw-small">₹39</span>
+      </p>
+      <div class="border border-dashed"></div>
+      <p class="text-left ms-4 mt-3">
+        <b><span class="price-fs fw-small pe-5">Amount Payable </span> <span class="price-fs ps-3 fw-small"> ₹431</span></b>
+      </p>
+    </div>
+  </div>
     
-<!-- Footer -->
-<footer
+  <!-- Footer -->
+  <footer
 class="text-center text-lg-start text-dark"
 style="background-color: #eceff1"
 >
@@ -192,13 +248,42 @@ style="background-color: #eceff1"
   <a class="text-dark" href="../index.html">Readz</a>
 </div>
 <!-- Copyright -->
-</footer>
-<!-- Footer -->
+  </footer>
+  <!-- Footer -->
 
-<script
+
+  <script>
+    function upi() {
+      let upiId = document.getElementById("upiID");
+      let wall = document.getElementById("wallet");
+      let card = document.getElementById("atm-card");
+      upiId.innerHTML = "<div class='ms-5 mt-2 mb-2'> <span>Choose an Payment Option</span> <br> <input type='radio' value='phonepe' name='upi' class='form-check-input mt-2'> <label for='phonepe' class='ms-3'> PhonePe</label> <br> <input type='radio' value='yourId' name='upi' class='form-check-input mt-2'> <label for='yourId' class='ms-3'> Your UPI ID</label> </div>";
+      wall.innerHTML = "";
+      card.innerHTML = "";
+    }
+
+    function wallets() {
+      let upiId = document.getElementById("upiID");
+      let wall = document.getElementById("wallet");
+      let card = document.getElementById("atm-card");
+      wall.innerHTML = "<br><div class='ms-5 mt-2 mb-2'> <span>Choose an Payment Option</span> <br> <input type='radio' value='phonepe' name='upi' class='form-check-input mt-2' disabled> <label for='phonepe' class='ms-3'> PhonePe</label> <br> <span class='text-secondary ms-4 mt-2'>Currently Unavaliable</span>";
+      upiId.innerHTML = "";
+      card.innerHTML = "";
+    }
+
+    function cards() {
+      let card = document.getElementById("atm-card");
+      let wall = document.getElementById("wallet");
+      let upiId = document.getElementById("upiID");
+      card.innerHTML = "<input type='password' placeholder='Enter Card Number' class='inp-card-num mx-5 my-2 px-2 py-1 rounded border border-secondary'> <br> <input type='text' placeholder='Valid Date' class='inp-card-valid mx-5 my-2 px-2 py-1 rounded border border-secondary'> <input type='text' placeholder='CVV' class='inp-card-cvv px-2 py-1 rounded border border-secondary'> <br> <button type='button' class='card-btn btn btn-warning mx-5 my-2 border'>Pay Now</button>";
+      wall.innerHTML = "";
+      upiId.innerHTML = "";
+    }
+  </script>
+  <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
-    ></script>
+  ></script>
 </body>
 </html>

@@ -1,0 +1,143 @@
+.container{
+    height:600px;
+    width:950px;
+    border:2px solid black;
+    border-radius: 10px;
+    display:flex;
+    margin-left: 300px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    
+}
+
+.description{
+    
+    padding-left: 10px;
+    font-size:29px;
+    
+    
+}
+
+.img-card{
+    padding-left: 50px;
+}
+
+.price{
+    text-align: center;
+}
+
+
+
+.card-container {
+    background-color: #fff;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    margin: 50px auto;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-image: #0093E9;background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: block;
+    margin: 10px auto;
+}
+
+.product-container {
+    margin: 10px;
+}
+
+.product-title {
+    font-size: 25px;
+}
+
+.product-description {
+    font-size: 15px;
+    color: #0000008c;
+}
+
+.quantity-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.quantity-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-img {
+    width: 35px;
+    cursor: pointer;
+}
+
+.quantity-text {
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.quantity-total {
+    font-size: 18px;
+}
+
+.btn-buy {
+    font-size: 20px;
+    display: block;
+    margin:50px auto;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.quantity-btn-container{
+    padding-left:50px;
+}
+
+.quantity-total{
+    padding-right: 20px;
+
+}
+
+.product-price{
+    padding-left: 20px;
+}
+
+.btn-buy{
+    padding-bottom: 10px;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        width:0 auto;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100px;
+        font-style: normal;
+        font-size: 20px;
+        background-color:rgb(183, 120, 4);
+        text-decoration: none;
+}
+
+
+    
+
+
+
+
+
+
+
+    

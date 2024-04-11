@@ -1,9 +1,11 @@
 .form-container{
     padding:10px;
-    display:flex;
+    display:inline-block;
     border:2px solid rgb(99, 137, 156); 
   border-radius:20px;
   box-shadow: 10px 10px 10px 10px  gray;
+  margin: 300px;
+  margin-left: 500px;
 }
 .btn,
 .option-btn,
@@ -50,7 +52,7 @@ html{
 }
 
 .form-container  form h3{
-    font-size: 2.5rem;
+    
     
     text-transform:uppercase ;
     color: black;
@@ -86,6 +88,10 @@ html{
 .img{
     height:500px;
     
+}
+
+.title{
+    font-size: 50px;
 }
 
 
