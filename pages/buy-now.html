@@ -67,15 +67,18 @@
       <h3 class="p-3 ps-4 bg-primary rounded-top-3 text-white">Payment Options</h3>
       <div class="m-3 ms-4">
         <div>
-          <input type="radio" value="UPI" id="upi" name="payment" class="form-check-input mt-2">
+          <input type="radio" value="UPI" id="upi" name="payment" class="form-check-input mt-2" onclick="upi()">
           <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/batman-returns/logos/UPI.gif" alt="upi" class="ms-2" width="40px" >
           <label for="upi" class="ms-2">UPI</label>
           <br>
+          <div id="upiID">
+
+          </div>
           <span class="text-secondary ms-5 mt-2">Pay by any UPI app</span>
            <br><hr>
           <input type="radio" name="payment" id="wallets" class="form-check-input mt-3">
           <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/batman-returns/logos/Wallets.gif" alt="wallets" class="ms-2"  width="40px">
-          <label for="upi" class="ms-2">Wallet</label>
+          <label for="wallets" class="ms-2">Wallets</label>
           <br><hr>
           <input type="radio" name="payment" id="card" class="form-check-input mt-3">
           <label for="card" class="ms-2 mt-2">Credit / Debit / ATM Card</label> <br>
@@ -242,6 +245,13 @@ style="background-color: #eceff1"
   </footer>
   <!-- Footer -->
 
+
+  <script>
+    function upi() {
+      let upiId = document.getElementById("upiID");
+      upiId.innerHTML = "<div class='ms-5 mt-2 mb-2'> <span>Choose an Payment Option</span> <br> <input type='radio' value='phonepe' name='upi' class='form-check-input mt-2'> <label for='phonepe' class='ms-3'> PhonePe</label> <br> <input type='radio' value='yourId' name='upi' class='form-check-input mt-2'> <label for='yourId' class='ms-3'> Your UPI ID</label> </div>"
+    }
+  </script>
   <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
