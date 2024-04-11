@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="../css/artsofhabit.css"/>
+    <title>golden-touch</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <img src="../images/golden touch.jpg"  class="img-card"/>
+
+    <div class="container2"> 
+       <p class="price"><del class="del_price">Rs.699</del>  <b>Rs.489.00</p> </b>
+
+<p class="description">Golden Touch
+    By: T.S. Kalyanaraman(Author) | Publisher: Penguin Random House India | Released: 09 Apr 2024 |
+    
+ story of Kalyan Jewellers and It is the very personal account of a visionary with humble beginnings
+     from Thrissur who set up one of the largest jewellery stores in the country--a Rs 17,000 crore behemoth employing over 8000 people. 
+     </p>
+
+
+
+<div class="quantity-container">
+    <span class="product-price" id="product-price">₹ 489 </span><div class="quantity-container">
+    <div class="quantity-btn-container ">
+        <img src="../images/minus.png" class="quantity-img" onclick="decrement()" />
+        <span class="quantity-text" id="quantity-text">1</span>
+        <img src="../images/plus.png" class="quantity-img" onclick="increment()" />
+    </div>
+</div>
+<p class="quantity-total" id="quantity-total">Quantity : 1</p>
+</div>
+<a href="../pages/buy-now.html">
+<button type="button" class="btn-buy">Buy Now</button>
+</a>
+</div>
+
+<script>
+const quantityText = document.getElementById('quantity-text');
+const quantityTotal = document.getElementById('quantity-total');
+const productPrice = document.getElementById('product-price');
+
+function increment() {
+let quantity = parseInt(quantityText.innerText);
+
+if (quantity < 10) {
+    quantityText.innerText = ++quantity;
+}
+else {
+    alert("You can't buy more than 10 products");
+}
+setQuantityandToatal(quantity);
+}
+
+function decrement() {
+let quantity = parseInt(quantityText.innerText);
+
+if (quantity > 1) {
+    quantityText.innerText = --quantity;
+}
+else {
+    alert("Buy minimum 1 product");
+}
+setQuantityandToatal(quantity);
+}
+
+function setQuantityandToatal(quantity) {
+quantityTotal.innerText = `Quantity : ${quantity}`;
+productPrice.innerText = `₹ ${489 * quantity}`;
+}
+</script>
+    
+
+    </div>
+</div> 
+    
+</body>
+</html>
