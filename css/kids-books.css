@@ -9,7 +9,6 @@
    
     display:flex;
     flex-wrap: wrap;
-    margin: 30px auto;
 }
 
 
@@ -25,7 +24,7 @@
     height:400px;
     min-width:230px;
     border:none;
-    margin: 20px;
+   margin: 20px;
     padding:10px;
     cursor: pointer;
     justify-content: center;
