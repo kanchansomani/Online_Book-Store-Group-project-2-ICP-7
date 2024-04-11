@@ -1,3 +1,5 @@
+
+
 .body{
     margin: 0;
     padding: 0;
@@ -6,16 +8,19 @@
     text-align: center;
 }
 .container{
-   
+    margin-left: 20px;
     display:flex;
     flex-wrap: wrap;
-    margin: 30px auto;
+    justify-content: center;
+}
+.brown-bg {
+    background-color: #D2B48C; /* light brown color */
+    padding: 20px; /* Add padding for better appearance */
+    min-height: 100vh;
     
 }
 
-
 .Book_image_card{
-    
     height:200px;
     margin-left:40px;
     margin-top:20px;
@@ -30,10 +35,8 @@
     padding:10px;
     cursor: pointer;
     justify-content: center;
-    background-color: #F3F1EE;
-    
+    background-color: #eee4d5;
 }
-
 .use_of_product{
     background-color: gray;
     border-radius: 20px;
@@ -47,8 +50,6 @@
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
-   
-
 }  
 .book_name{
     font-family: "Roboto", sans-serif;
@@ -100,13 +101,10 @@
     border: none;
     border-radius: 5px;
     border-radius: 20px;
-    
   }
-  
   .sidebar button:hover {
     color: black;
   }
-  
   .sidebar .me-3 {
     color: #333;
   }
