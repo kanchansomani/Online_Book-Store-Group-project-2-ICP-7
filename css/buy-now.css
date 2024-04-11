@@ -1,3 +1,14 @@
 .payment-container {
     margin: 100px 50px;
+    width: 900px;
+}
+
+.price-container {
+    margin: 100px 50px;
+    width: 300px;
+    height: 230px;
+}
+
+.price-fs {
+    font-size: 18px;
 }
