@@ -6,6 +6,7 @@
    
     display:flex;
     flex-wrap: wrap;
+    
 }
 
 
@@ -16,6 +17,7 @@
     margin-top:2px;
     box-shadow: 1px 0 5px 1px  rgb(159, 158, 158);
 }
+    
 .product_conatiner{
     width: 100px;
     height:400px;
@@ -50,39 +52,43 @@
     font-weight: 100px;
     font-style: normal;
    font-size: 20px;
+   
 }
 .book_author{
     margin-top: -10px;
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
+    
    
 
 }
 .book_price{
     font-size: 20px;
+   
 }
 .del_price{
     color: gray;
     font-size: 15px;
+    
 }
 .add_to_cart{
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
     font-size: 15px;
-    color:rgb(183, 120, 4)
+    color:rgb(183, 120, 4);
+    
 }
 
 .rating-star{
     height:15px;
+    
+}
 
+.img{
+    text-decoration: none;
 
 }
 
-.btn-quick{
-    border:1px solid black;
-    border-radius: 5px;
-
-}
 
