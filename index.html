@@ -131,7 +131,7 @@
               <div class="first_container product_conatiner">
             
                 <span class="use_of_product">Gently Used 71%</span>
-                <img src="./images/index img/empty.png"  class="Like_symbol" id="Like-img" onclick="toggleheart()/>
+                <img src="./images/index img/empty.png"  class="Like_symbol" id="Like-img" onclick="toggleheart('Full')"/>
              
                    <img class="Book_image_card "  src="./images/index img/book_1.jpg">
                     <p class="book_name">Death Of the River</p>
@@ -545,21 +545,49 @@
         }
         setInterval(clock, 1000);
         clock();
-      </script>
+     
 
+    //     <h1 class="app-title">Moon Toggler</h1>
+    // <div class="emoji-container">
+    //     <img src="./img/empty_moon.jpg" class="emoji1" id="emptymoon" />
+    // </div>
+    // <div class="btn-container">
+       
+    //     <button class="btn-toggle btn-Empty" onclick="toggleMoon('Empty')">Empty Moon</button>
+    //     <button class="btn-toggle btn-Full" onclick="toggleMoon('Full')">Full Moon</button>
+        
+    // </div>
 
-        <script>
+    // <script>
+    //     function toggleMoon(state){
+    //         const MoonElement = document.getElementById("emptymoon");
+    //         if(state =='Empty'){
+    //             MoonElement.src = './img/empty_moon.jpg';
+    //         }
+
+    //         else if (state == 'Full')
+    //         {
+                
+    //             MoonElement.src = './img/full_moon.jpg';
+    //         }
+            
+    //     }
+    
+  
+
+  
+       
 
         function toggleheart(state){
-            const MoonElement = document.getElementById("Like-img");
+            const  heartElement = document.getElementById("Like-img");
             if(state =='Empty'){
-                MoonElement.src = './images/index img/empty.png';
+                heartElement.src = './images/index img/empty.png';
             }
 
             else if (state == 'Full')
             {
                 
-                MoonElement.src = './images/index img/heart.png';
+                heartElement.src = './images/index img/heart.png';
             }
             
         }     
