@@ -1,7 +1,4 @@
-.body{
-    margin: 0;
-    padding: 0;
-}
+
 .book-tilte{
     text-align: center;
 }
@@ -14,9 +11,9 @@
 
 .Book_image_card{
     
-    height:200px;
+    height:180px;
     margin-left:40px;
-    margin-top:20px;
+    margin-top:2px;
     box-shadow: 1px 0 5px 1px  rgb(159, 158, 158);
 }
 .product_conatiner{
@@ -80,4 +77,12 @@
 .rating-star{
     height:15px;
 
+
 }
+
+.btn-quick{
+    border:1px solid black;
+    border-radius: 5px;
+
+}
+
