@@ -181,6 +181,7 @@ h3 {
     padding: 30px;
     margin: 40px;
     border-radius: 5px;
+   
 }
 .card1:hover {
     margin-top: -3px;
@@ -208,4 +209,43 @@ h3 {
     font-size: 18px;
     
     /* color: rgb(0, 0, 0); */
+}
+
+.container-1{
+    height: 400px;
+    width: 100%;
+    background-color:#DED0B6; 
+    font-size: 20px;
+    text-align: left;
+    
+}
+h1{
+    text-align: center;
+}
+.text{
+    text-align: left;
+    margin: 10px;
+}
+
+.container-2{
+    height: 400px;
+    width: 100%;
+    background-color:#DED0B6; 
+    font-size: 20px;
+    text-align: left;
+   margin-left: 670px;
+}
+.container-3{
+    height: 300px;
+    width: 100%;
+    background-color:#DED0B6; 
+    font-size: 20px;
+    text-align: left;
+    
+}
+.para-2{
+    color: rgb(183, 120, 4);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
 }
