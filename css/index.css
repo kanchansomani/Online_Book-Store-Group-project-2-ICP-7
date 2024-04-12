@@ -212,6 +212,7 @@ body{
     font-size: 15px;
 }
 .add_to_cart{
+    margin-left: 2px;
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
@@ -347,7 +348,7 @@ body{
     overflow-x: auto;
 }
 .New_book_container::-webkit-scrollbar{
-    width: 0;
+    width: 100%;
 }
 .good_Book_image_card{
     height:200px;
@@ -419,7 +420,7 @@ body{
     font-style: normal;
     font-size: 15px;
     color:rgb(183, 120, 4);
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .advisors_section{
