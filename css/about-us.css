@@ -173,7 +173,7 @@ h3 {
     font-style: normal;  
     margin-top: -40px;
 }
-.card1 {
+.card11 {
     border:none;
     height: 420px;
     width: 300px;
@@ -262,4 +262,59 @@ h1{
     height: 400px;
     box-shadow: 0 0 55px rgba(0, 0, 0, 0.2);
     border: none;
+}
+/* .adjectives{
+    border:none;
+    height: 420px;
+    width: 300px;
+    background-color: #FAEED1;   
+    padding: 30px;
+    margin: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+} */
+.card1 {
+    border:none;
+    height: 200px;
+    width: 300px;
+    background-color: #FAEED1;   
+    padding: 30px;
+    margin: 40px;
+    border-radius: 5px;
+}
+.card1:hover {
+    margin-top: -3px;
+    transition: 1.5s;
+    transform: scale(0.9);
+}
+
+.card1 img {
+    height: 50px;
+    border-radius: 5px;
+}
+
+.card1 span {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 0;
+    color: rgb(0, 0, 0);
+    
+}
+.card1 p {
+    text-align: justify;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    
+    /* color: rgb(0, 0, 0); */
+}
+
+.service-header  {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 50px;
+   
 }
