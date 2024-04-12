@@ -64,6 +64,7 @@ h3 {
 
 .branch-title {
     text-align: center;
+    background-color: #F3F1EE;
 }
 
 .branch-container {
@@ -153,6 +154,7 @@ h3 {
     font-weight: 100px;
     font-style: normal;
     font-size: 60px;
+    background-color: #F3F1EE;
    
 }
 @media screen and (max-width:768px)
@@ -309,6 +311,7 @@ h1{
     font-weight: 100px;
     font-style: normal;
     font-size: 50px;
+    background-color: #F3F1EE;
    
 }
 .book-type{
@@ -321,4 +324,7 @@ h1{
 }
 .type-description{
     text-align: left;
+}
+.title1{
+    background-color: #F3F1EE;   
 }
