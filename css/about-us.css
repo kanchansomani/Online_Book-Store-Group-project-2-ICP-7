@@ -70,7 +70,7 @@ h3 {
 .branch-container {
     background-color:#DED0B6;    
     width: 800px;
-  
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     padding: 10px;
