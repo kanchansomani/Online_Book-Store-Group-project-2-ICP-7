@@ -229,16 +229,15 @@ body{
 }
 .add_to_cart2{
     justify-content: center;
-    margin-left: 10px;
+    margin-left: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
     font-size: 15px;
-   background-color:rgb(183, 120, 4);
-   border-radius: 30px;
-  
-   border: none;
-   color: white;
+    background-color:rgb(183, 120, 4);
+    border-radius: 30px;  
+    border: none;
+    color: white;
    margin-bottom: 10px;
 }
 @media screen and (max-width:768px)
