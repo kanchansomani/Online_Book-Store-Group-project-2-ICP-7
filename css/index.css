@@ -132,6 +132,7 @@ body{
     display:flex;
     overflow-x: auto;
     margin-top: 20px;
+
    
 }
 .container::-webkit-scrollbar{
@@ -152,6 +153,7 @@ body{
     padding:10px;
     cursor: pointer;
     justify-content: center;
+   
     background-color: #FDF7E4;
     
 }
@@ -182,6 +184,7 @@ body{
     font-weight: 100px;
     font-style: normal;
    font-size: 20px;
+   margin-top: 10px;
 }
 .book_author{
     margin-top: -10px;
@@ -212,12 +215,31 @@ body{
     font-size: 15px;
 }
 .add_to_cart{
+    justify-content: center;
     margin-left: 2px;
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
     font-size: 15px;
-    color:rgb(183, 120, 4)
+   background-color:rgb(183, 120, 4);
+   border-radius: 30px;
+   margin-left: 5px;
+   border: none;
+   color: white;
+}
+.add_to_cart2{
+    justify-content: center;
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 15px;
+   background-color:rgb(183, 120, 4);
+   border-radius: 30px;
+  
+   border: none;
+   color: white;
+   margin-bottom: 10px;
 }
 @media screen and (max-width:768px)
 {
@@ -398,6 +420,7 @@ body{
     font-style: normal;
     font-size: 20px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 .good_book_author{
     margin-top: -10px;
