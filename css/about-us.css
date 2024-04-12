@@ -326,5 +326,6 @@ h1{
     text-align: left;
 }
 .title1{
-    background-color: #F3F1EE;   
+    background-color: #F3F1EE; 
+    margin-bottom: 40px;  
 }
