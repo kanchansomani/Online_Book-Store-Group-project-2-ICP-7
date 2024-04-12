@@ -40,6 +40,37 @@ body{
     transition: 1s;
     cursor: pointer;
 }
+.Shortcut-img{
+    display: flex;   
+    overflow-x: auto;
+   
+}
+.Shortcut-img::-webkit-scrollbar{
+    width:100%;
+  
+}
+.Shortcut-img1{
+    display: flex;  
+    height: 80px;
+    margin: 2px;
+    margin-left: 90px;
+    /* margin-top: 50px; */
+   
+}
+.Shortcut-img p{
+    display: flex;
+   
+    /* margin: 5px; */
+    margin-left: 90px;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    
+
+   
+}
+
 .Book_deals{
     font-size: 60px;
     padding-top: 30px;
