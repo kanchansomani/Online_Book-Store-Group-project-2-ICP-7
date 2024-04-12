@@ -175,7 +175,7 @@ h3 {
 }
 .card11 {
     border:none;
-    height: 420px;
+    height: 380px;
     width: 300px;
     background-color: #FAEED1;   
     padding: 30px;
@@ -308,4 +308,9 @@ h1{
     font-style: normal;
     font-size: 50px;
    
+}
+.book-type{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
 }
