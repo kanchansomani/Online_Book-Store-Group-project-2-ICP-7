@@ -12,10 +12,16 @@
 
 
 <body>
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="font-size: 25px;height: 150px;  ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Readz</a>
+
+            <img src="../logo/Book-shop-logo.jpg" alt="cart"
+                style="height: 100px; margin-top: -40px;margin-left:10px;"></a>
+
+            <a class="navbar-brand" href="#" style="margin-top:70px; font-size: 35px;margin-left: -180px;">Wonder
+                Words</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -24,72 +30,87 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html"
+                            style="margin-left:270px;margin-top: 10px;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">New Arrivals</a>
+                        <a class="nav-link active" aria-current="page" href="./about-us.html"
+                            style="margin-left: 50px;margin-top: 10px;">About Us</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./contact.html"
+                            style="margin-left: 50px;margin-top: 10px;">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown" style="margin-left:40px ;margin-top: 10px;">
+                        <a class="nav-link dropdown-toggle" active href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Find Your Kind
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Best Sellers</a></li>
-                            <li><a class="dropdown-item" href="#">Fiction Books</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Todays's Deals</a></li>
+                            <li><a class="dropdown-item" href="./bestseller.html">Best Sellers</a></li>
+                            <li><a class="dropdown-item" href="./new-arrrival.html">New Arrivals</a></li>
+                            <li><a class="dropdown-item" href="./kids-book.html">Kids Books</a></li>
+                            <li><a class="dropdown-item" href=".">Award Winners</a></li>
+                            <li><a class="dropdown-item" href="./Non-Fiction-book.html">Non-Fiction Books</a></li>
+                            <li><a class="dropdown-item" href="../index.html">Daily Deals</a></li>
+                            <li><a class="dropdown-item" href="./Coffee-table-book.html">Coffee Table Books</a></li>
+
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Request a Book</a>
-                    </li>
+
                 </ul>
-                <form class="d-flex search" role="search">
-                    <input class="form-control me-2 rounded-4" style="width: 350px;" type="search" placeholder="Search"
-                        aria-label="Search">
-                    <button class="btn btn-outline-primary rounded-4" type="submit">Search</button>
-                </form>
+
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active mx-2" href="#"><img src="../logo/login.png" alt="login"
-                                width="30px"></a>
+                        <a class="nav-link active mx-2" href="#"><img src="../logo/login.png" alt="login" width="30px">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../pages/login.html">Login</a></li>
+                            <li><a class="dropdown-item" href="../pages/Registration.html">Register</a></li>
+                        </ul>
                     </li>
+
+
                     <li class="nav-item">
-                        <a class="nav-link active mx-1" href="#"><img src="../logo/cart.png" alt="cart"
-                                width="30px"></a>
+                        <a class="nav-link active mx-1" href="../pages/add-cart.html"><img src="../logo/cart.png"
+                                alt="cart" width="30px"></a>
                     </li>
                 </ul>
             </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
     </nav>
     <!-- Navbar End -->
+
     <h3>Buy Now</h3>
 
 
 
 
     <h1 class="heading">ABOUT US</h1>
-    <div class="slideshow-container">
-        <div class="slides">
-            <img src="../images/about-img/img1.jpg" alt="Bookstore Image 1">
-        </div>
-        <div class="slides">
-            <img src="../images/about-img/img2.jpg" alt="Bookstore Image 2">
-        </div>
+    <div class="slide-show">
+        <div class="slideshow-container">
 
+            <div class="slides">
+                <img src="../images/about-img/img1.jpg" alt="Bookstore Image 1">
+            </div>
+            <div class="slides">
+                <img src="../images/about-img/img2.jpg" alt="Bookstore Image 2">
+            </div>
+
+        </div>
     </div>
-
     <!-- <img src="../images/about-img/img 1.webp" class="img-1" /> -->
     <h4 class="quote">"So many books, so little time." - Frank Zappa</h4>
 
-    <p class="para-1">Books are an infinite source of knowledge.The only thing that can replace a book is another
+    <!-- <p class="para-1">Books are an infinite source of knowledge.The only thing that can replace a book is another
         book.But how to find
         that title which is not available in the bookstore near your home? Yes! You guessed it right-online bookstore.In
         one click,you can brows through thousands of titles.Find your favourite book in the format you prefer at our
-        online book store.</p>
+        online book store.</p> -->
 
 
     <!-- <h3> #1 Online Bookstore In India. </h3>
@@ -130,162 +151,93 @@
         offer the most extensive possible discounts on the actual prices of the books, not hindering the quality at any
         cost. Thus, you can buy cheap books online at Bookbins without a second thought.
     </p> -->
-<div class="container-1 col-6 ">
-    <h1>#1 Online Bookstore In India.</h1>
-    <p class="text">Found in 2022, Online Bookstore is a platform where you can find all kinds of books. From
-        Thrillers to Murders,
-        Fiction to Non-Fiction, Self-Help to Autobiographies - we have it all. The idea of Bookbins popped out of a
-        doctor's head when he was buying books for a few friends, and they dug a hole in his pocket. That day, he
-        decided to make books affordable for the ones who wanted to read but could not afford them.
-        <br><br>
-        We offer readers the opportunity to buy a wide range of books online at affordable prices. Readers can avail of
-        our services from all over India. Our store provides a wide variety of genres, including motivational books,
-        romance books, fiction books, non-fiction books etc.</p>
-       
-</div>
+    <div class="container-1 col-6 ">
+        <h1>#1 Online Bookstore In India.</h1>
+        <p class="text">Found in 2022, Online Bookstore is a platform where you can find all kinds of books. From
+            Thrillers to Murders,
+            Fiction to Non-Fiction, Self-Help to Autobiographies - we have it all. The idea of Bookbins popped out of a
+            doctor's head when he was buying books for a few friends, and they dug a hole in his pocket. That day, he
+            decided to make books affordable for the ones who wanted to read but could not afford them.
+            <br><br>
+            We offer readers the opportunity to buy a wide range of books online at affordable prices. Readers can avail
+            of
+            our services from all over India. Our store provides a wide variety of genres, including motivational books,
+            romance books, fiction books, non-fiction books etc.
+        </p>
 
-<div class="container-2 col-6 ">
-    <h1>Our Aim And Services .</h1>
-    <p class="text">We support the idea of more books with the least expenditure. Our goal is to provide
-        readers with the books they want without them having to put themselves on a book-buying ban. Thus, we have
-        introduced a wide range of categories to offer the best quality books at affordable rates.
-        <br><br>
-        Our vision is to educate every Indian to the farthest extent and be a part of their excelling journey. To
-        make shopping a more personalized experience, we also offer free bookmarks on every order. Our experts run
-        multiple quality checks to provide you with the best services at affordable prices. We also keep updating
-        our catalogue from time to time, so you don't miss the latest releases.</p>
-       
-</div>
+    </div>
 
-<div class="container-3 col-6 ">
-    <h1>Our Combos And Discounts .</h1>
-    <p class="text">To give our customers the joy of budget-buying, we have also introduced budget stores starting at
-        Rs. 129, Rs. 139 and much more. We also allow shoppers to build combos based on their liking and budget. We
-        offer the most extensive possible discounts on the actual prices of the books, not hindering the quality at any
-        cost. Thus, you can buy cheap books online at Bookbins without a second thought.</p>
-       
-</div>
+    <div class="container-2 col-6 ">
+        <h1>Our Aim And Services .</h1>
+        <p class="text">We support the idea of more books with the least expenditure. Our goal is to provide
+            readers with the books they want without them having to put themselves on a book-buying ban. Thus, we have
+            introduced a wide range of categories to offer the best quality books at affordable rates.
+            <br><br>
+            Our vision is to educate every Indian to the farthest extent and be a part of their excelling journey. To
+            make shopping a more personalized experience, we also offer free bookmarks on every order. Our experts run
+            multiple quality checks to provide you with the best services at affordable prices. We also keep updating
+            our catalogue from time to time, so you don't miss the latest releases.
+        </p>
+
+    </div>
+
+    <div class="container-3 col-6 ">
+        <h1>Our Combos And Discounts .</h1>
+        <p class="text">To give our customers the joy of budget-buying, we have also introduced budget stores starting
+            at
+            Rs. 129, Rs. 139 and much more. We also allow shoppers to build combos based on their liking and budget. We
+            offer the most extensive possible discounts on the actual prices of the books, not hindering the quality at
+            any
+            cost. Thus, you can buy cheap books online at Bookbins without a second thought.</p>
+
+    </div>
     <p class="para-2">Thus, Wonder Words is your one-stop solution to buy your favorite book.</p>
 
-    <h3 class="media">Why Should You Choose Online Book Store?</h3>
-    <div class="facilities">
-        <li class="items">Best-Quality Books.
-        </li>
-        <li class="items">Wide Variety Of Books
-        </li>
-        <li class="items">Affordable Prices
-        </li>
-        <li class="items">Same Day Dispatch
-        </li>
-        <li class="items">Proper Packaging
-        </li>
-        <li class="items">Easy And Safe Payments/COD Available
-        </li>
-        <li class="items">24 x 7 Customer Service
-        </li>
-        <li class="items">Easy Returns
-        </li>
-    </div>
-    <!-- <h1 class="categories text-center mg-30px">Categories of Books Available</h1>
-    <div class="row">
-        <div class="col-4  text-center">
 
-            <h1>Fiction</h1>
-            <p><b>Fiction books are imaginative works of literature that are not based on real events or people. They
-                    are created by the author's imagination and can include genres such as fantasy, science fiction,
-                    romance, mystery, and historical fiction. Fiction books aim to entertain, engage, and transport
-                    readers to different worlds or scenarios.
 
-                </b>
+    <span class="service-header">
+        <p style="text-align: center;margin-top: 30px;">Why should you choose Wonder Words book store?</p>
+    </span>
+
+    <div class="services">
+        <div class="card1">
+            <img src="../images/about-img/high-quality.png" alt="icon" />
+            <span class="adj">&nbsp; Best Quality</span><br><br>
+            <p>We maintain quality of books.Also best service provided by our side.</p>
+        </div>
+        <div class="card1">
+            <img src="../images/about-img/variety.png" alt="icon" />
+            <span class="adj">&nbsp; Wide Variety of Books </span><br><br>
+            <p>We have different categories of books like fiction,non-fiction,spiritual,educational,etc</p>
+        </div>
+        <div class="card1">
+            <img src="../images/about-img/affordable-prices.png" alt="icon">
+            <span class="adj">&nbsp; Affordable Prices</span><br><br>
+            <p> We have different kinds of books ranging from 150 to 1000 only.
             </p>
         </div>
+        <div class="card1">
 
-        <div class="col-4  text-center">
-            <h1>Non-fiction</h1>
-            <p><b>Non-fiction books are factual works that are based on real events, people, or information. They cover
-                    a wide range of topics such as history, science, biographies, self-help, travel, and true crime.
-                    Non-fiction books aim to inform, educate, or persuade readers about a particular subject or issue.
-                </b></p>
+            <img src="../images/about-img/packing.png" alt="icon">
+            <span class="adj">&nbsp; Proper Packaging</span><br><br>
+            <p>We dispatch your order with proper packing with your mentioned address.
+            </p>
+        </div>
+        <div class="card1">
+            <img src="../images/about-img/easy payment.png" alt="icon">
+            <span class="adj">&nbsp; Easy Payment</span><br><br>
+            <p>We provide different platforms for payments also Cash On Delivery is available. </p>
+        </div>
+        <div class="card1">
+            <img src="../images/about-img/product-return.png" alt="icon">
+            <span class="adj"> &nbsp; Easy Returns</span><br><br>
+            <p>In case,you find our book faulty,you can return it easily by connecting with cutomer care.</p>
         </div>
 
-
-        <div class="col-4 text-center">
-            <h1>Mystery/Thriller</h1>
-            <p><b>Mystery and thriller books are characterized by suspenseful plots, unexpected twists, and thrilling
-                    elements. They often involve crime-solving, detective work, or psychological suspense to keep
-                    readers engaged and guessing until the end. Mystery books focus on solving a puzzle or uncovering a
-                    secret, while thriller books create tension.
-                </b></p>
-        </div>
-        <div class="row">
-            <div class="col-4  text-center">
-                <h1>Romance</h1>
-                <p><b>Romance books focus on romantic relationships and love stories between characters. They explore
-                        themes
-                        of love, passion, intimacy, and emotional connections. Romance novels can be set in various time
-                        periods or settings and often have a happy ending where the main characters find love and
-                        happiness
-                        together.
-                    </b></p>
-            </div>
+    </div>
 
 
-            <div class="col-4  text-center">
 
-                <h1>Science Fiction</h1>
-                <p><b>Science fiction and fantasy books are speculative genres that explore imaginative worlds,
-                        futuristic technology, magic, and other fantastical elements. Science fiction often delves into
-                        scientific concepts, technology advancements, and futuristic societies, while fantasy focuses on
-                        magic, mythical creatures, and epic quests. These genres allow authors to create unique and
-                        immersive worlds that challenge readers' imaginations.
-
-                    </b>
-                </p>
-            </div>
-
-            <div class="col-4  text-center">
-                <h1>Self-help</h1>
-                <p><b>Self-help books provide guidance, advice, and strategies for personal growth, self-improvement,
-                        and achieving success in various aspects of life. They cover topics such as mindfulness,
-                        motivation, productivity, relationships, mental health, and achieving goals. Self-help books aim
-                        to empower readers to make positive changes in their lives and overcome challenges.
-
-
-                    </b></p>
-            </div>
-
-
-            <div class="col-4  text-center">
-                <h1>Historical Fiction</h1>
-                <p><b>Historical fiction books are set in the past and often blend real historical events with fictional
-                        characters and storylines. These books transport readers to different time periods and cultures,
-                        offering a glimpse into historical events, social norms, and customs. Historical fiction can
-                        provide insight into the lives of people from the past while exploring themes of love, war,
-                        politics, and societal issues.
-
-
-                    </b></p>
-            </div>
-
-            <div class="col-4  text-center">
-                <h1>Biography</h1>
-                <p><b>Autobiography books tell the life stories of real individuals. Biographies are
-                        written by authors who research and document the life of another person, while autobiographies
-                        are written by the subject themselves. These books offer insight into the achievements,
-                        struggles, experiences, and perspectives of notable individuals from various fields such as
-                        politics, entertainment, sports, or business.
-                    </b></p>
-            </div>
-            <div class="col-4  text-center">
-                <h1>Spiritual</h1>
-                <p><b>Spiritual books explore themes related to spirituality, personal growth, mindfulness, and inner
-                        peace. They often delve into questions about the meaning of life, the nature of existence, and
-                        the connection between mind, body, and spirit. Spiritual books can draw from religious
-                        teachings, philosophical principles, and personal experiences to offer guidance, inspiration,
-                        and wisdom to readers seeking a deeper understanding of themselves and the world around them.
-
-                    </b></p>
-            </div> -->
 
     <span class="service-header">
         <p style="text-align: center;margin-top: 30px;">Types of Books Available</p>
@@ -293,60 +245,64 @@
 
 
     <div class="services">
-        <div class="card1">
+        <div class="card11">
 
 
-            <span>&emsp; Fiction</span>
-            <p>Fiction books are imaginative works of literature that are not based on real events or people. They are
+            <span class="book-type">Fiction</span>
+            <br>
+            <p class="type-description">Fiction books are imaginative works of literature that are not based on real events or people. They are
                 created by the author's imagination and can include genres such as fantasy, science fiction, romance,
                 mystery, and historical fiction. Fiction books aim to entertain, engage, and transport readers to
                 different worlds or scenarios.
             </p>
         </div>
-        <div class="card1">
+        <div class="card11">
 
-            <span>&emsp; Non-fiction </span>
-            <p>Non-fiction books are factual works that are based on real events, people, or information. They cover a
+            <span class="book-type"> Non-fiction </span><br>
+            <p class="type-description">Non-fiction books are factual works that are based on real events, people, or information. They cover a
                 wide range of topics such as history, science, biographies, self-help, travel, and true crime.
                 Non-fiction books aim to inform, educate, or persuade readers about a particular subject or issue.
             </p>
         </div>
-        <div class="card1">
+        <div class="card11">
 
-            <span>&emsp; Mystery/Thriller</span>
-            <p> Mystery and thriller books are characterized by suspenseful plots, unexpected twists, and thrilling
+            <span class="book-type" > Mystery</span><br>
+           
+            <p class="type-description"> Mystery and thriller books are characterized by suspenseful plots, unexpected twists, and thrilling
                 elements. Mystery books focus on solving a puzzle or uncovering a secret,
                 while thriller books create tension and excitement through fast-paced action and danger</p>
         </div>
-        <div class="card1">
+        <div class="card11">
 
 
-            <span>&emsp; Romance</span>
-            <p>Romance books focus on romantic relationships and love stories between characters. They explore themes of
+            <span class="book-type"> Romance</span><br>
+            <p class="type-description">Romance books focus on romantic relationships and love stories between characters. They explore themes of
                 love, passion, intimacy, and emotional connections. Romance novels can be set in various time periods or
                 settings and often have a happy ending where the main characters find love and happiness together.
             </p>
         </div>
-        <div class="card1">
+        <div class="card11">
 
-            <span>&emsp; Science Fiction</span>
-            <p>Science fiction and fantasy books are speculative genres that explore imaginative worlds, futuristic
+            <span class="book-type"> Science Fiction</span><br>
+            <p class="type-description">Science fiction and fantasy books are speculative genres that explore imaginative worlds, futuristic
                 technology, magic, and other fantastical elements. Science fiction often delves into scientific
                 concepts, technology advancements, and futuristic societies, while fantasy focuses on magic, mythical
                 creatures, and epic quests </p>
         </div>
-        <div class="card1">
+        <div class="card11">
 
-            <span> &emsp; Historical Fiction</span>
-            <p>Historical fiction books are set in the past and often blend real historical events with fictional
+            <span class="book-type"> Historical Fiction</span><br>
+            <p class="type-description">Historical fiction books are set in the past and often blend real historical events with fictional
                 characters and storylines. These books transport readers to different time periods and cultures,
                 offering a glimpse into historical events, social norms, and customs. </p>
         </div>
 
     </div>
-    <h1 class="branch-title">Our Branches</h1>
+    <span class="service-header">
+        <p style="text-align: center;margin-top: 30px;">Our Branches</p>
+    </span>
     <div class="branch-container">
-        <img src="img 7.jpg" class="branch-img" id="img" />
+        <img src="../images/about-img/img7.jpg" class="branch-img" id="img" />
 
     </div>
     <div class="branch-container">
@@ -368,23 +324,38 @@
     <footer class="text-center " style="background-color:#FAEED1; font-family: Roboto sans-serif; font-weight: 100;
 font-style: normal; ">
         <!-- < Right -->
-        <div>
-            <a href="#" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-white me-4"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="text-white me-4"><i class="fab fa-google"></i></a>
-            <a href="#" class="text-white me-4"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="text-white me-4"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="text-white me-4"><i class="fab fa-github"></i></a>
+        <!-- <section  class="d-flex justify-content-between p-4 text-white" style="background-color:#FAEED1"> -->
+        <!-- Left -->
+        <!-- <div class="me-5 text-black" style="font-size: 25px;">
+        <span>Get connected with us on social networks:</span>
+      </div> -->
+        <!-- Left -->
+
+        <!-- Right -->
+        <div style="justify-content: center;display: flex; ">
+            <a href="#" class="text-white me-4"><i class="fab fa-facebook-f"><img src="../logo/facebook.png"
+                        width="35px" style="margin-top: 25px;"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-twitter"><img src="../logo/twitter.png" width="35px"
+                        style="margin-top: 25px;"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-google"><img src="../logo/google.png" width="35px"
+                        style="margin-top: 25px;"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-instagram"><img src="../logo/instagram.png"
+                        width="35px" style="margin-top: 25px;"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-linkedin"><img src="../logo/linkedin.png" width="35px"
+                        style="margin-top: 25px;"></i></a>
+            <a href="#" class="text-white me-4"><i class="fab fa-github"><img src="../logo/github.png" width="35px"
+                        style="margin-top: 25px;"></i></a>
         </div>
+        </section>
 
         <section class="">
             <div class="container text-center text-md-start mt-5">
                 <!-- Grid row -->
                 <div class="row mt-3">
                     <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4" style="margin-left 30px;font-size:20px">
+                    <div class="col-md-3   mb-4" style="margin-left:-100px;font-size:20px">
                         <!-- Content -->
-                        <h6 class=" fw-bold" style="font-size:35px">Wonder Words</h6>
+                        <h6 class=" fw-bold" style="font-size:35px">Woder Words</h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 80px; background-color: #7c4dff; height: 2px;" />
                         <p class=" fw-bold">
@@ -394,68 +365,71 @@ font-style: normal; ">
                         </p>
                     </div>
                     <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4  fw-bold" style="font-size:20px">
+                    <div class="col-md-2 col-lg-2 col-xl-2  mb-4  fw-bold" style="font-size:20px; margin-left: 150px;">
                         <!-- Links -->
                         <h6 class=" fw-bold" style="font-family: Roboto sans-serif; font-weight: 100;
-              font-style: normal; font-size:25px">Quick Links</h6>
+              font-style: normal; font-size:30px">Quick Links</h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 80px; background-color: #7c4dff; height: 2px" />
-                        <p><a href="#!" class="text-dark">Home</a></p>
-                        <p><a href="#!" class="text-dark">About</a></p>
-                        <p><a href="#!" class="text-dark">Contact</a></p>
-                        <p><a href="#!" class="text-dark"></a></p>
+                        <p><a href="../index.html" class="text-dark">Home</a></p>
+                        <p><a href="../pages/about-us.html" class="text-dark">About</a></p>
+                        <p><a href="../pages/contact.html" class="text-dark">Contact</a></p>
+                        <p><a href="#!" class="text-dark">Find Your Kinds</a></p>
                     </div>
 
                     <!-- Grid column -->
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 fw-bold " style="font-size:20px">
                         <!-- Links -->
                         <h6 class=" fw-bold" style="font-family: Roboto sans-serif; font-weight: 100;
-              font-style: normal; font-size:25px">Services</h6>
+              font-style: normal; font-size:30px">Services</h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 80px; background-color: #7c4dff; height: 2px" />
-                        <p><a href="#!" class="text-dark">Best Sellers</a></p>
-                        <p><a href="#!" class="text-dark">Fiction Books</a></p>
-                        <p><a href="#!" class="text-dark">Award Winners</a></p>
-                        <p><a href="#!" class="text-dark">Lifestyle</a></p>
+                        <p><a href="../pages/bestseller.html" class="text-dark">Best Sellers</a></p>
+                        <p><a href="../pages/new-arrrival.html" class="text-dark">New Arrival</a></p>
+                        <p><a href="../pages/" class="text-dark">Award Winners</a></p>
+                        <p><a href="../index.html" class="text-dark">Daily Deals</a></p>
                     </div>
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 fw-bold" style="font-size:20px">
-                        <!-- Links -->
-                        <h6 class=" fw-bold" style="font-family: Roboto sans-serif; font-weight: 100;
+                    <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 fw-bold"style="font-size:20px"> -->
+                    <!-- Links -->
+                    <!-- <h6 class=" fw-bold"style="font-family: Roboto sans-serif; font-weight: 100;
               font-style: normal; font-size:25px">Policies</h6>
-                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 60px; background-color: #7c4dff; height: 2px" />
-                        <p><a href="#!" class="text-dark">Privacy Policies</a></p>
-                        <p><a href="#!" class="text-dark">Terms of Use</a></p>
-                        <p><a href="#!" class="text-dark">Secure Shopping</a></p>
-                        <p><a href="#!" class="text-dark">Copyright Policy</a></p>
-                    </div>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"style="width: 60px; background-color: #7c4dff; height: 2px"/>
+              <p><a href="#!" class="text-dark">Privacy Policies</a></p>
+              <p><a href="#!" class="text-dark">Terms of Use</a></p>
+              <p><a href="#!" class="text-dark">Secure Shopping</a></p>
+              <p><a href="#!" class="text-dark">Copyright Policy</a></p>
+            </div> -->
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 fw-bold" style="font-size:20px">
+                    <div class="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4 fw-bold"
+                        style="font-size:20px; margin-right: -100px;">
                         <!-- Links -->
                         <h6 class=" fw-bold" style="font-family: Roboto sans-serif; font-weight: 100;
-              font-style: normal; font-size:25px">Contact</h6>
+              font-style: normal; font-size:30px">Contact</h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #7c4dff; height: 2px" />
                         <p>
-                            <i class="fas fa-home mr-3"></i> <a href="https://maps.app.goo.gl/9cwJUf8Ruc1zuFEz8"
-                                class="footer-anchor text-dark" target="_blank">
-                                <img src="../logo/location.png" alt="location" class="contact-logo me-1" width="20px" />
+                            <i class="fas fa-home mr-3"></i>
+                            <a href="https://maps.app.goo.gl/9cwJUf8Ruc1zuFEz8" class="footer-anchor text-dark"
+                                target="_blank">
+                                <img src="../logo/placeholder.png" alt="location" class="contact-logo me-1"
+                                    width="20px" />
                                 404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari BK, Pune - 412307
                         </p></a>
                         <p><i class="fas fa-phone mr-3"></i>
                             <a href="tel: +91-8805803087" class="footer-anchor text-dark">
-                                <img src="../logo/phone.png" alt="phone" class="contact-logo me-1" width="20px" />
+                                <img src="../logo/phone-call.png" alt="phone" class="contact-logo me-1" width="20px" />
                                 +91-7821011979
                         </p>
                         </a>
                         <p><i class="fas fa-print mr-3"></i>
                             <a href="mailto: suraj@roadtocode.org" class="footer-anchor text-dark">
-                                <img src="../logo/email.png" alt="mail" class="contact-logo me-1" width="20px" />
+                                <img src="../logo/email2.png" alt="mail" class="contact-logo me-1" width="20px" />
                                 suraj@roadtocode.org
                         </p>
                         </a>
@@ -488,24 +462,27 @@ font-style: normal; ">
     <script>
         function turnOnPune() {
             const ourBranch = document.getElementById('img');
-            ourBranch.src = ('img5.jpg');
-        };
+            ourBranch.src = ('../images/about-img/img5.jpg');
+        }
 
         function turnOnMumbai() {
             const ourBranch = document.getElementById('img');
-            ourBranch.src = ('img6.jpg');
-        };
+            ourBranch.src = ('../images/about-img/img6.jpg');
+        }
 
         function turnOnNagpur() {
             const ourBranch = document.getElementById('img');
-            ourBranch.src = ('img7.jpg');
-        };
+            ourBranch.src = ('../images/about-img/img7.jpg');
+        }
 
         function turnOnNashik() {
             const ourBranch = document.getElementById('img');
-            ourBranch.src = ('img8.jpg');
-        };
+            ourBranch.src = ('../images/about-img/img8.jpg');
+        }
     </script>
+
+
+
     <script>
         let slideIndex = 0;
         showSlides();
