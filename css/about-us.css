@@ -219,7 +219,7 @@ h3 {
 }
 
 .container-1{
-    height: 400px;
+    height: 440px;
     width: 100%;
     background-color:#DED0B6; 
     font-size: 20px;
@@ -231,11 +231,11 @@ h1{
 }
 .text{
     text-align: left;
-    margin: 10px;
+    margin: 20px;
 }
 
 .container-2{
-    height: 400px;
+    height: 450px;
     width: 100%;
     background-color:#DED0B6; 
     font-size: 20px;
@@ -243,7 +243,7 @@ h1{
    margin-left: 670px;
 }
 .container-3{
-    height: 300px;
+    height: 280px;
     width: 100%;
     background-color:#DED0B6; 
     font-size: 20px;
