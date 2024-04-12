@@ -69,11 +69,12 @@ h3 {
 
 .branch-container {
     background-color:#DED0B6;    
-    width: 600px;
+    width: 800px;
+  
     display: flex;
     justify-content: center;
     padding: 10px;
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 10px;
     box-shadow: 10px;
 
@@ -84,6 +85,7 @@ h3 {
     justify-content: center;
     margin: 20px;
     width: 200px;
+    
 }
 
 .btn-toggle {
@@ -101,7 +103,8 @@ h3 {
     font-style: normal;
     font-size: 20px;
     background-color:rgb(183, 120, 4);
-   margin-left: 10px;
+   /* margin-left: 10px; */
+   margin: 15px;
     
 
     
@@ -125,7 +128,8 @@ h3 {
 }
 
 .branch-img {
-    height: 250px;
+    height: 400px;
+   
 }
 
 .col-4{
