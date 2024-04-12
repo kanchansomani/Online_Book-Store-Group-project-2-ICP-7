@@ -14,6 +14,7 @@ body {
     text-align: center;
     margin: 10px;
     padding: 10px;
+    margin-top: 80px;
 }
 
 .img-1 {
@@ -63,15 +64,17 @@ h3 {
 
 .branch-title {
     text-align: center;
+    background-color: #F3F1EE;
 }
 
 .branch-container {
     background-color:#DED0B6;    
-    width: 600px;
+    width: 800px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     padding: 10px;
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 10px;
     box-shadow: 10px;
 
@@ -82,6 +85,7 @@ h3 {
     justify-content: center;
     margin: 20px;
     width: 200px;
+    
 }
 
 .btn-toggle {
@@ -99,7 +103,8 @@ h3 {
     font-style: normal;
     font-size: 20px;
     background-color:rgb(183, 120, 4);
-   margin-left: 10px;
+   /* margin-left: 10px; */
+   margin: 15px;
     
 
     
@@ -123,7 +128,8 @@ h3 {
 }
 
 .branch-img {
-    height: 250px;
+    height: 400px;
+   
 }
 
 .col-4{
@@ -152,6 +158,7 @@ h3 {
     font-weight: 100px;
     font-style: normal;
     font-size: 60px;
+    background-color: #F3F1EE;
    
 }
 @media screen and (max-width:768px)
@@ -212,7 +219,7 @@ h3 {
 }
 
 .container-1{
-    height: 400px;
+    height: 440px;
     width: 100%;
     background-color:#DED0B6; 
     font-size: 20px;
@@ -224,11 +231,11 @@ h1{
 }
 .text{
     text-align: left;
-    margin: 10px;
+    margin: 20px;
 }
 
 .container-2{
-    height: 400px;
+    height: 450px;
     width: 100%;
     background-color:#DED0B6; 
     font-size: 20px;
@@ -236,7 +243,7 @@ h1{
    margin-left: 670px;
 }
 .container-3{
-    height: 300px;
+    height: 280px;
     width: 100%;
     background-color:#DED0B6; 
     font-size: 20px;
@@ -308,6 +315,7 @@ h1{
     font-weight: 100px;
     font-style: normal;
     font-size: 50px;
+    background-color: #F3F1EE;
    
 }
 .book-type{
@@ -320,4 +328,8 @@ h1{
 }
 .type-description{
     text-align: left;
+}
+.title1{
+    background-color: #F3F1EE; 
+    margin-bottom: 40px;  
 }
