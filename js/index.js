@@ -15,198 +15,213 @@ setInterval(clock, 1000);
 clock();  
 
 
-function toggleheart(state){
-    const  heartElement = document.getElementById("Like-img");
-    if(state =='Full'){
-        heartElement.src = './images/index img/heart.png';
-    }         
+function toggleheart() {
+    const heartElement = document.getElementById("Like-img");
+    const currentSrc = heartElement.src;
+    const fullSrc = './images/index img/heart.png';
+    const emptySrc = './images/index img/empty.png';
 
-    else if (state == 'empty')
-    {
+    if (currentSrc === fullSrc) {
+        heartElement.src = emptySrc;
+    } else {
+        heartElement.src = fullSrc;
+    }
+}
+
+// function toggleheart(state){
+//     const  heartElement = document.getElementById("Like-img");
+//     if(state =='Full'){
+//         heartElement.src = './images/index img/heart.png';
+//     }         
+
+//     else if (state == 'empty')
+//     {
         
-        heartElement.src = './images/index img/empty.png';
-    }         
+//         heartElement.src = './images/index img/empty.png';
+//     }         
     
-}  
+// } 
 
-function toggleheart2(state){
-    const  heartElement = document.getElementById("Like-img2");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
 
-    else if (state == 'Full')
-    {
+
+// function toggleheart2(state){
+//     const  heartElement = document.getElementById("Like-img2");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
+
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart3(state){
-    const  heartElement = document.getElementById("Like-img3");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart3(state){
+//     const  heartElement = document.getElementById("Like-img3");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart4(state){
-    const  heartElement = document.getElementById("Like-img4");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart4(state){
+//     const  heartElement = document.getElementById("Like-img4");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart5(state){
-    const  heartElement = document.getElementById("Like-img5");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart5(state){
+//     const  heartElement = document.getElementById("Like-img5");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart6(state){
-    const  heartElement = document.getElementById("Like-img6");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart6(state){
+//     const  heartElement = document.getElementById("Like-img6");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart7(state){
-    const  heartElement = document.getElementById("Like-img7");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart7(state){
+//     const  heartElement = document.getElementById("Like-img7");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart8(state){
-    const  heartElement = document.getElementById("Like-img8");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart8(state){
+//     const  heartElement = document.getElementById("Like-img8");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart9(state){
-    const  heartElement = document.getElementById("Like-img9");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart9(state){
+//     const  heartElement = document.getElementById("Like-img9");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart10(state){
-    const  heartElement = document.getElementById("Like-img10");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart10(state){
+//     const  heartElement = document.getElementById("Like-img10");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart11(state){
-    const  heartElement = document.getElementById("Like-img11");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart11(state){
+//     const  heartElement = document.getElementById("Like-img11");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart12(state){
-    const  heartElement = document.getElementById("Like-img12");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart12(state){
+//     const  heartElement = document.getElementById("Like-img12");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart13(state){
-    const  heartElement = document.getElementById("Like-img13");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart13(state){
+//     const  heartElement = document.getElementById("Like-img13");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
 
-function toggleheart14(state){
-    const  heartElement = document.getElementById("Like-img14");
-    if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
-    }         
+// function toggleheart14(state){
+//     const  heartElement = document.getElementById("Like-img14");
+//     if(state =='Empty'){
+//         heartElement.src = './images/index img/empty.png';
+//     }         
 
-    else if (state == 'Full')
-    {
+//     else if (state == 'Full')
+//     {
         
-        heartElement.src = './images/index img/heart.png';
-    }         
+//         heartElement.src = './images/index img/heart.png';
+//     }         
     
-}  
+// }  
