@@ -260,4 +260,6 @@ h1{
     display: flex;
     width: 700px;
     height: 400px;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.2);
+    border: none;
 }
