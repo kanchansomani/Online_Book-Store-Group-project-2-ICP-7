@@ -14,7 +14,7 @@
     display: inline-block;
     padding: 1rem 3rem;
     cursor: pointer;
-    color:white;
+    color:#000;
     font-size:1.8rem;
     text-transform: capitalize;
 }
@@ -22,11 +22,11 @@
 .btn:hover,
 .option-btn:hover,
 .delete-btn:hover{
-    background-color:purple;
+    background-color: #DED0B6;
 }
 
 .btn{
-    background-color: purple;
+    background-color: #DED0B6;
 }
 
 .option-btn{
@@ -78,7 +78,7 @@ html{
 }
 
 .form-container  form p a{
-    color:purple;
+    color:#000;
 }
 
 .form-container  form p a:hover{
