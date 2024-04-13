@@ -1,6 +1,6 @@
 .container-1{
     height:600px;
-    width:950px;
+    width:850px;
     border:2px solid black;
     border-radius: 10px;
     display:flex;
@@ -20,6 +20,8 @@
 
 .img-card{
     padding-left:0px;
+    border:1px;
+    border-radius: 6px;
 }
 
 .price{
