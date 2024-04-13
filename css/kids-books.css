@@ -51,6 +51,13 @@
     font-weight: 100px;
     font-style: normal;
 }  
+
+.Like_symbol{
+    height:25px;
+    margin-left:85%;
+    margin-top: -50px;
+
+} 
 .book_name{
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
