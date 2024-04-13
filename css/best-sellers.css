@@ -37,6 +37,12 @@
     justify-content: center;
     background-color: #eee4d5;
 }
+.Like_symbol{
+    height:25px;
+    margin-left:85%;
+    margin-top: -50px;
+
+} 
 .use_of_product{
     background-color: gray;
     border-radius: 20px;
