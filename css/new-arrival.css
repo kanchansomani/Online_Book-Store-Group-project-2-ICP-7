@@ -4,8 +4,11 @@
 }
 .container{
    
+    
+    margin-left: 20px;
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -52,6 +55,7 @@
     font-weight: 100px;
     font-style: normal;
    font-size: 20px;
+   margin-left: 50x;
    
 }
 .book_author{
@@ -59,27 +63,23 @@
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
     font-style: normal;
+    margin-left: 30px;
     
    
 
 }
 .book_price{
     font-size: 20px;
+    margin-left: 20px;
    
 }
 .del_price{
     color: gray;
     font-size: 15px;
+    margin-left: 20px;
     
 }
-.add_to_cart{
-    font-family: "Roboto", sans-serif;
-    font-weight: 100px;
-    font-style: normal;
-    font-size: 15px;
-    color:rgb(183, 120, 4);
-    
-}
+
 
 .rating-star{
     height:15px;
@@ -92,6 +92,25 @@
 
 }
 
+
+.add_to_cart{
+    justify-content: center;
+    margin-left: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 15px;
+   background-color:rgb(183, 120, 4);
+   border-radius: 30px;
+   margin-left: 5px;
+   border: none;
+   color: white;
+   margin-left: 50px;
+}
+
+.name{
+    margin-left: 30px;
+}
 
 
 
