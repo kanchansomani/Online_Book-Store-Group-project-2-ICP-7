@@ -159,7 +159,7 @@ function toggleheart10(state){
                       <p class="book_name">Eat Drink Nap</p>
                       <p class="book_author">by Polaroids</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.249</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
         `;
                     card2.innerHTML = `
@@ -169,7 +169,7 @@ function toggleheart10(state){
                       <p class="book_name">The White Book</p>
                       <p class="book_author">by Chrissie Rucker</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
         `;
                     card3.innerHTML = `
@@ -179,7 +179,7 @@ function toggleheart10(state){
                       <p class="book_name">The Art of Home </p>
                       <p class="book_author">by Shea McGee</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.349</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
         `;
                     card4.innerHTML = `
@@ -189,7 +189,7 @@ function toggleheart10(state){
                       <p class="book_name">MADE for LIVING </p>
                       <p class="book_author">by Amber Lewis</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.370</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
          
         `;
@@ -200,7 +200,7 @@ function toggleheart10(state){
                       <p class="book_name">Modern Way to Live</p>
                       <p class="book_author">by Matt Gibberd</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.390</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                   </div>
         `;
                     card6.innerHTML = `
@@ -210,7 +210,7 @@ function toggleheart10(state){
                       <p class="book_name">The Live Beautiful</p>
                       <p class="book_author">by Nathan William</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.415</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
         `;
                     card7.innerHTML = `
@@ -220,7 +220,7 @@ function toggleheart10(state){
                       <p class="book_name"> This Is Home</p>
                       <p class="book_author">by AMansur Gavriel</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.450</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
          
         `;
@@ -231,7 +231,7 @@ function toggleheart10(state){
                       <p class="book_name">The Inspired Home</p>
                       <p class="book_author">by Donna Karan</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.500</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
         `;
                     card9.innerHTML = `
@@ -241,7 +241,7 @@ function toggleheart10(state){
                       <p class="book_name">Charlotte's Web</p>
                       <p class="book_author">by E.B. White</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.549</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                   </div>
         `;
                     card10.innerHTML = `
@@ -251,7 +251,7 @@ function toggleheart10(state){
                       <p class="book_name">UP STATE</p>
                       <p class="book_author">by Lisa Prystup</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.569</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
         `;
                 }
@@ -274,8 +274,8 @@ function toggleheart10(state){
                     <p class="book_name">Eat Drink Nap</p>
                     <p class="book_author">by Polaroids</p>
                     <p class="book_price"><del class="del_price">Rs.599</del> Rs.249</p>
-                    <p class="add_to_cart">Add to cart</p>
-                  </div>
+                    <button class="add_to_cart">Add to cart</button>
+                    </div>
       `;
                   card7.innerHTML = `
                   <div class="first_container product_conatiner">
@@ -284,7 +284,7 @@ function toggleheart10(state){
                     <p class="book_name">The White Book</p>
                     <p class="book_author">by Chrissie Rucker</p>
                     <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
-                    <p class="add_to_cart">Add to cart</p>
+                    <button class="add_to_cart">Add to cart</button>
                   </div>
       `;
                   card6.innerHTML = `
@@ -294,7 +294,7 @@ function toggleheart10(state){
                     <p class="book_name">The Art of Home </p>
                     <p class="book_author">by Shea McGee</p>
                     <p class="book_price"><del class="del_price">Rs.599</del> Rs.349</p>
-                    <p class="add_to_cart">Add to cart</p>
+                    <button class="add_to_cart">Add to cart</button>
                   </div>
       `;
                   card5.innerHTML = `
@@ -304,7 +304,7 @@ function toggleheart10(state){
                     <p class="book_name">MADE for LIVING </p>
                     <p class="book_author">by Amber Lewis</p>
                     <p class="book_price"><del class="del_price">Rs.599</del> Rs.370</p>
-                    <p class="add_to_cart">Add to cart</p>
+                    <button class="add_to_cart">Add to cart</button>
                   </div>
        
       `;
@@ -315,7 +315,7 @@ function toggleheart10(state){
                     <p class="book_name">Modern Way to Live</p>
                     <p class="book_author">by Matt Gibberd</p>
                     <p class="book_price"><del class="del_price">Rs.599</del> Rs.390</p>
-                    <p class="add_to_cart">Add to cart</p>
+                    <button class="add_to_cart">Add to cart</button>
                 </div>
       `;
                   card3.innerHTML = `
@@ -325,7 +325,7 @@ function toggleheart10(state){
                     <p class="book_name">The Live Beautiful</p>
                     <p class="book_author">by Nathan William</p>
                     <p class="book_price"><del class="del_price">Rs.599</del> Rs.415</p>
-                    <p class="add_to_cart">Add to cart</p>
+                    <button class="add_to_cart">Add to cart</button>
                   </div>
       `;
                   card2.innerHTML = `
@@ -335,7 +335,7 @@ function toggleheart10(state){
                     <p class="book_name"> This Is Home</p>
                     <p class="book_author">by AMansur Gavriel</p>
                     <p class="book_price"><del class="del_price">Rs.599</del> Rs.450</p>
-                    <p class="add_to_cart">Add to cart</p>
+                    <button class="add_to_cart">Add to cart</button>
                   </div>
        
       `;
@@ -346,7 +346,7 @@ function toggleheart10(state){
                     <p class="book_name">The Inspired Home</p>
                     <p class="book_author">by Donna Karan</p>
                     <p class="book_price"><del class="del_price">Rs.599</del> Rs.500</p>
-                    <p class="add_to_cart">Add to cart</p>
+                    <button class="add_to_cart">Add to cart</button>
                   </div>
       `;
                   
@@ -369,7 +369,7 @@ function toggleheart10(state){
                               <p class="book_name">The Live Beautiful</p>
                               <p class="book_author">by Nathan William</p>
                               <p class="book_price"><del class="del_price">Rs.599</del> Rs.415</p>
-                              <p class="add_to_cart">Add to cart</p>
+                              <button class="add_to_cart">Add to cart</button>
                             </div>
                 `;
                             card2.innerHTML = "";
@@ -403,7 +403,7 @@ function toggleheart10(state){
                       <p class="book_name">Eat Drink Nap</p>
                       <p class="book_author">by Polaroids</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.249</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
                     `;
                 
@@ -415,7 +415,7 @@ function toggleheart10(state){
                       <p class="book_name">Modern Way to Live</p>
                       <p class="book_author">by Polaroids</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.390</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                   </div>
                   `;
                     card3.innerHTML = "";
@@ -447,7 +447,7 @@ function toggleheart10(state){
                       <p class="book_name"> This Is Home</p>
                       <p class="book_author">by AMansur Gavriel</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.450</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
                     `;
                 
@@ -482,7 +482,7 @@ function toggleheart10(state){
                       <p class="book_name">The White Book</p>
                       <p class="book_author">by Chrissie Rucker</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
                     `;
                 
@@ -517,7 +517,7 @@ function toggleheart10(state){
                       <p class="book_name">The Art of Home </p>
                       <p class="book_author">by Shea McGee</p>
                       <p class="book_price"><del class="del_price">Rs.599</del> Rs.349</p>
-                      <p class="add_to_cart">Add to cart</p>
+                      <button class="add_to_cart">Add to cart</button>
                     </div>
                     `;
 
