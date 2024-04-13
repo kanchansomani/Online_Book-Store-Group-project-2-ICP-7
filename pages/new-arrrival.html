@@ -1,346 +1,972 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/new-arrival.css">
-    
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-      
-      
-
-
-    <title>New Arrival Page</title>
+  <meta charset="UTF-8">
+  <style>
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wonder Words</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/new-arrival.css">
+  <link rel="stylesheet" href="./../css/best-sellers.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-NK1dEuODToUiRjEBOgU6PzZfl7x5tcsNusiw1cnXCSwOo/muH6xgQYjWbzJTKyfg"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-
   <!-- Navbar -->
- <nav class="navbar navbar-expand-lg  fixed-top" style="font-size: 22px;height: 100px;background-color:#FAEED1;">
-  <div class="container-fluid">
-  
-  <img src="../logo/Wonder-Words-logo.png" alt="cart" style="height: 150px; margin-top: 40px;"></a>
-    
-    <a class="navbar-brand" href="#" style="margin-top:70px; font-size: 35px;margin-left: -180px;"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 300px;">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../index.html" style="margin-left:220px;margin-top: 10px;">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../pages/about-us.html" style="margin-left: 50px;margin-top: 10px;">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../pages/contact.html" style="margin-left: 50px;margin-top: 10px;">Contact Us</a>
-        </li>
-       
-        <li class="nav-item dropdown"  style="margin-left:40px ;margin-top: 10px;">
-          <a class="nav-link dropdown-toggle" active href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-            Find Your Kind
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="./bestseller.html">Best Sellers</a></li>
-            <li><a class="dropdown-item" href="./new-arrrival.html">New Arrivals</a></li>
-            <li><a class="dropdown-item" href="./kids-book.html">Kids Books</a></li>
-            <li><a class="dropdown-item" href=".">Award Winners</a></li>
-            <li><a class="dropdown-item" href="./Non-Fiction-book.html">Non-Fiction Books</a></li>
-            <li><a class="dropdown-item" href="../index.html">Daily Deals</a></li>
-            <li><a class="dropdown-item" href="./Coffee-table-book.html">Coffee Table Books</a></li>
-           
-          </ul>
-        </li>
-      
-      </ul>
-    
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active mx-2" href="#"><img src="../logo/login.png" alt="login" width="35px">  </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="../pages/login.html">Login</a></li>
-            <li><a class="dropdown-item" href="../pages/Registration.html">Register</a></li>        
-          </ul>      
-        </li>
-      
+  <nav class="navbar navbar-expand-lg  fixed-top" style="font-size: 22px;height: 100px;background-color:#FAEED1;">
+    <div class="container-fluid">
 
-        <li class="nav-item">
-          <a class="nav-link active mx-1" href="../pages/add-cart.html"><img src="../logo/cart.png" alt="cart" width="35px"></a>
-        </li>
-      </ul>
+      <img src="../logo/Wonder-Words-logo.png" alt="cart" style="height: 150px; margin-top: 40px;"></a>
+
+      <a class="navbar-brand" href="#" style="margin-top:70px; font-size: 35px;margin-left: -180px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 170px;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html"
+              style="margin-left:340px;margin-top: 10px;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/about-us.html"
+              style="margin-left: 50px;margin-top: 10px;">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/contact.html"
+              style="margin-left: 50px;margin-top: 10px;">Contact Us</a>
+          </li>
+
+          <li class="nav-item dropdown" style="margin-left:50px ;margin-top: 10px;">
+            <a class="nav-link dropdown-toggle" active href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Find Your Kind
+            </a>
+            <ul class="dropdown-menu" style="background-color: #FAEED1;">
+              <li><a class="dropdown-item text-black" style="background-color: #FAEED1;" href="./bestseller.html">Best
+                  Sellers</a></li>
+              <li><a class="dropdown-item text-black" style="background-color: #FAEED1;" href="./new-arrrival.html">New
+                  Arrivals</a></li>
+              <li><a class="dropdown-item text-black" style="background-color: #FAEED1;" href="./kids-book.html">Kids
+                  Books</a></li>
+              <li><a class="dropdown-item text-black" style="background-color: #FAEED1;" href=".">Award Winners</a></li>
+              <li><a class="dropdown-item text-black" style="background-color: #FAEED1;"
+                  href="./Non-Fiction-book.html">Non-Fiction Books</a></li>
+              <li><a class="dropdown-item text-black" style="background-color: #FAEED1;" href="../index.html">Daily
+                  Deals</a></li>
+              <li><a class="dropdown-item text-black" style="background-color: #FAEED1;"
+                  href="./Coffee-table-book.html">Coffee Table Books</a></li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active mx-2" href="#"><img src="../logo/login.png" alt="login" width="35px"> </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pages/login.html">Login</a></li>
+              <li><a class="dropdown-item" href="../pages/Registration.html">Register</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link active mx-1" href="../pages/add-cart.html"><img src="../logo/cart.png" alt="cart"
+                width="35px"></a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-  crossorigin="anonymous"
-></script>
-</nav>
-<!-- Navbar End -->
-  <h1 class="book-tilte" style="margin-top: 90px;">New Arrival</h1>
-  <div class="container">
-<a href="../pages/arts-of habits.html" class="img">
-        <div class="first_container product_conatiner">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  </nav>
+  <!-- Navbar End -->
+  <div class="row">
+    <h1 class="book-tilte" style="margin-top: 100px;">New Arrival</h1>
+    <div class="col-12 d-flex">
+      <!--sidebar-->
+      <div class="sidebar p-0 brown-bg  ">
+        <h1>Filters</h1>
+        <h3>Price</h3>
+        <button onclick="lowTohigh()">Low to High</button>
+        <button onclick="highToLow()">High to Low</button>
+        <h3>Writer's</h3>
+        <div>
+          <button onclick="JoyceCarolates()" class="centered-button">Joyce Carol Oates</button>
+          <button onclick="JamesKelman()" class="centered-button">James Kelman</button>
+          <button onclick="NicholasdeLange()" class="centered-button">Nicholas de Lange</button>
+          <button onclick="SabrinaGendron()" class="centered-button">Sabrina Gendron</button>
+          <button onclick="JoyceCarolates()" class="centered-button">Joyce Carol Oates</button>
+        </div>
+      </div>
 
-          <span class="use_of_product">  Gently Used 71%</span>
-          <img src="../images/index img/empty.png"  class="Like_symbol"/>
+      <div class="container">
+        <div id="card1">
+          <a href="../pages/arts-of habits.html" class="img">
+            <div class="first_container product_conatiner">
 
-             <img class="Book_image_card "  src="../images/new-arrival-img/gauranga das.jpg">
+              <span class="use_of_product"> Gently Used 71%</span>
+              <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img1"
+                onclick="toggleheart1('Full')" />
+
+              <img class="Book_image_card " src="../images/new-arrival-img/gauranga das.jpg">
               <p class="book_name name">Art of Habits</p>
               <p class="book_author">Shantanu Gupta</p>
-              <p class="book_price"><del class="del_price">Rs.250</del>  Rs.205</p>
+              <p class="book_price"><del class="del_price">Rs.250</del> Rs.205</p>
 
               <div class="rating_section">
-                <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-              
+                <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+
                 <button class="add_to_cart">Add to cart</button>
-                
-                
-                
-                
-                </a>
-                </div>
-             
-           
+
+
+
+
+          </a>
         </div>
 
-        <a href="../pages/golden-touch-page.html" class="img">
-          <div class="first_container product_conatiner">
-            <span class="use_of_product">Gently Used 30%</span>
-            <img src="../images/index img/empty.png"  class="Like_symbol"/>
-               <img class="Book_image_card "  src="../images/new-arrival-img/golden touch.jpg">
-                <p class="book_name name">Golden Touch</p>
-                  <p class="book_author">T.S. Kalyanarama</p>
-                  <p class="book_price"><del class="del_price"> ₹899</del>  Rs.₹620</p>
-                  <div class="rating_section">
-                    <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-                    <button class="add_to_cart">Add to cart</button>
-                 
-                </a>
-              </div>
-             
-             
-            </div>
-             
-             
 
-                
-                
-               
-
-
-          <a href="../pages/mahagatha-page.html" class="img">
-            <div class="first_container product_conatiner">
-            <span class="use_of_product">Gently Used 35%</span>
-            <img src="../images/index img/empty.png"  class="Like_symbol"/>
-               <img class="Book_image_card "  src="../images/new-arrival-img/mahagatha.jpg">
-                <p class="book_name name">Mahagatha</p>
-                  <p class="book_author">Satyarth Nayak</p>
-                  <p class="book_price"><del class="del_price">Rs.499</del>  Rs.324</p>
-                  <div class="rating_section">
-                    <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-                  
-                    <button class="add_to_cart">Add to cart</button>
-                    
-                </a>
-              </div>
-            </div>
-        
-
-              
-               
-          
-
-      <a href="../pages/chankyaneeti-page.html" class="img">
+      </div>
+    </div>
+    <div id="card2">
+      <a href="../pages/golden-touch-page.html" class="img">
         <div class="first_container product_conatiner">
-            <span class="use_of_product">Gently Used 11%</span>
-            <img src="../images/index img/empty.png"  class="Like_symbol"/>
-               <img class="Book_image_card "  src="../images/new-arrival-img/chankya neeti.jpg">
-                <p class="book_name"> Chanakya Sutra Sahit</p>
-                  <p class="book_author">Ashwini Parashar</p>
-                  <p class="book_price"><del class="del_price">Rs.1,131</del>  Rs.1271,</p>
-                  <div class="rating_section">
-                    <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-                  
-                    <button class="add_to_cart">Add to cart</button>
-                   
-               
-              </a>
-            </div>
-          </div>
-             
-          
+          <span class="use_of_product">Gently Used 30%</span>
+          <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img2"
+            onclick="toggleheart2('Full')" />
+          <img class="Book_image_card " src="../images/new-arrival-img/golden touch.jpg">
+          <p class="book_name name">Golden Touch</p>
+          <p class="book_author">T.S. Kalyanarama</p>
+          <p class="book_price"><del class="del_price"> ₹899</del> Rs.₹620</p>
+          <div class="rating_section">
+            <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+            <button class="add_to_cart">Add to cart</button>
 
-              <a href="../pages/clear thinking-page.html" class="img">
-          <div class="first_container product_conatiner">
-            <span class="use_of_product">Gently Used 41%</span>
-            <img src="../images/index img/empty.png"  class="Like_symbol"/>
-               <img class="Book_image_card "  src="../images/new-arrival-img/clear thinking.jpg">
-                <p class="book_name name">Clear Thinking</p>
-                  <p class="book_author">Shane Parrish</p>
-                  <p class="book_price"><del class="del_price">Rs.899</del>  Rs.620</p>
-                  <div class="rating_section">
-                    <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-                  
-                    <button class="add_to_cart">Add to cart</button>
-                    
-                  </a>
-                                 
-                </div>
-              </div>
-               
-             
-          
-         <a href="../pages/modi and india-page.html" class="img">
-          <div class="first_container product_conatiner">
+      </a>
+    </div>
+
+
+  </div>
+  </div>
+  <div id="card3">
+    <a href="../pages/mahagatha-page.html" class="img">
+      <div class="first_container product_conatiner">
+        <span class="use_of_product">Gently Used 35%</span>
+        <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img3"
+          onclick="toggleheart3('Full')" />
+        <img class="Book_image_card " src="../images/new-arrival-img/mahagatha.jpg">
+        <p class="book_name name">Mahagatha</p>
+        <p class="book_author">Satyarth Nayak</p>
+        <p class="book_price"><del class="del_price">Rs.499</del> Rs.324</p>
+        <div class="rating_section">
+          <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+
+          <button class="add_to_cart">Add to cart</button>
+
+    </a>
+  </div>
+  </div>
+  </div>
+  <div id="card4">
+    <a href="../pages/chankyaneeti-page.html" class="img">
+      <div class="first_container product_conatiner">
+        <span class="use_of_product">Gently Used 11%</span>
+        <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img4"
+          onclick="toggleheart4('Full')" />
+        <img class="Book_image_card " src="../images/new-arrival-img/chankya neeti.jpg">
+        <p class="book_name"> Chanakya Sutra Sahit</p>
+        <p class="book_author">Ashwini Parashar</p>
+        <p class="book_price"><del class="del_price">Rs.1,131</del> Rs.1271,</p>
+        <div class="rating_section">
+          <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+
+          <button class="add_to_cart">Add to cart</button>
+
+
+    </a>
+  </div>
+  </div>
+  </div>
+  <div id="card5">
+    <a href="../pages/clear thinking-page.html" class="img">
+      <div class="first_container product_conatiner">
+        <span class="use_of_product">Gently Used 41%</span>
+        <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img5"
+          onclick="toggleheart5('Full')" />
+        <img class="Book_image_card " src="../images/new-arrival-img/clear thinking.jpg">
+        <p class="book_name name">Clear Thinking</p>
+        <p class="book_author">Shane Parrish</p>
+        <p class="book_price"><del class="del_price">Rs.899</del> Rs.620</p>
+        <div class="rating_section">
+          <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+
+          <button class="add_to_cart">Add to cart</button>
+
+    </a>
+
+  </div>
+  </div>
+  </div>
+  <div id="card6">
+    <a href="../pages/modi and india-page.html" class="img">
+      <div class="first_container product_conatiner">
+        <span class="use_of_product">Gently Used 31%</span>
+        <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img6"
+          onclick="toggleheart6('Full')" />
+        <img class="Book_image_card " src="../images/new-arrival-img/modi and india.jpg">
+        <p class="book_name name">Modi & India</p>
+        <p class="book_author">Rahul Shivshankar</p>
+        <p class="book_price"><del class="del_price">Rs.699</del> Rs.489</p>
+        <div class="rating_section">
+          <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+
+
+          <button class="add_to_cart">Add to cart</button>
+
+          </a>
+
+        </div>
+      </div>
+  </div>
+  <div id="card7">
+
+    <a href="../pages/flame and shadow-page.html" class="img">
+      <div class="first_container product_conatiner">
+        <span class="use_of_product">Gently Used 31%</span>
+        <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img7"
+          onclick="toggleheart7('Full')" />
+        <img class="Book_image_card " src="../images/new-arrival-img/house of flame and shadow.jpg">
+        <p class="book_name">Flame and Shadow</p>
+        <p class="book_author">Maas Sarah J. M</p>
+        <p class="book_price"><del class="del_price">Rs.899</del> Rs.620</p>
+        <div class="rating_section">
+          <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+
+
+          <button class="add_to_cart">Add to cart</button>
+
+    </a>
+
+  </div>
+  </div>
+  </div>
+  <div id="card8">
+
+    <a href="../pages/ramayan and family-page.html" class="img">
+      <div class="first_container product_conatiner">
+        <span class="use_of_product">Gently Used 71%</span>
+        <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img8"
+          onclick="toggleheart8('Full')" />
+        <img class="Book_image_card " src="../images/new-arrival-img/ramayan family and life.jpg">
+        <p class="book_name"> Ramayana on Family</p>
+        <p class="book_author">Gauranga Das</p>
+        <p class="book_price"><del class="del_price">Rs.250</del> Rs.205</p>
+        <div class="rating_section">
+          <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+          <button class="add_to_cart">Add to cart</button>
+
+    </a>
+
+  </div>
+  </div>
+
+  </div>
+  <div id="card8">
+
+    <a href="../pages/coming wave-page.html" class="img">
+        <div class="first_container product_conatiner">
             <span class="use_of_product">Gently Used 31%</span>
-            <img src="../images/index img/empty.png"  class="Like_symbol"/>
-               <img class="Book_image_card "  src="../images/new-arrival-img/modi and india.jpg">
-                <p class="book_name name">Modi & India</p>
-                  <p class="book_author">Rahul Shivshankar</p>
-                  <p class="book_price"><del class="del_price">Rs.699</del>  Rs.489</p>
-                  <div class="rating_section">
-                    <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-                  
-                  
-                    <button class="add_to_cart">Add to cart</button>
-                   
-                  </a>
-                                  
-                </div>
-              </div>
-              
-             
-             
-          
+            <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img9"
+                onclick="toggleheart9('Full')" />
+            <img class="Book_image_card " src="../images/new-arrival-img/the coming wave.jpg">
+            <p class="book_name">The Coming Wave</p>
+            <p class="book_author">Michael Bhaskar</p>
+            <p class="book_price"><del class="del_price">Rs.799</del> Rs.551</p>
+            <div class="rating_section">
+                <a href="./pages/add-cart.html" class="text-decoration-none"></a>
 
-           <a href="../pages/flame and shadow-page.html" class="img">
-          <div class="first_container product_conatiner">
-            <span class="use_of_product">Gently Used 31%</span>
-            <img src="../images/index img/empty.png"  class="Like_symbol"/>
-               <img class="Book_image_card "  src="../images/new-arrival-img/house of flame and shadow.jpg">
-                <p class="book_name">Flame and Shadow</p>
-                  <p class="book_author">Maas Sarah J. M</p>
-                  <p class="book_price"><del class="del_price">Rs.899</del>  Rs.620</p>
-                  <div class="rating_section">
-                    <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-               
-                  
-                    <button class="add_to_cart">Add to cart</button>
-                    
-                  </a>
-                                  
-                </div>
-              </div>
-             
-          
-          <a href="../pages/ramayan and family-page.html" class="img">
-          <div class="first_container product_conatiner">
-            <span class="use_of_product">Gently Used 71%</span>
-            <img src="../images/index img/empty.png"  class="Like_symbol"/>
-               <img class="Book_image_card "  src="../images/new-arrival-img/ramayan family and life.jpg">
-                <p class="book_name"> Ramayana on Family</p>
-                  <p class="book_author">Gauranga Das</p>
-                  <p class="book_price"><del class="del_price">Rs.250</del>  Rs.205</p>
-                  <div class="rating_section">
-                    <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-                    <button class="add_to_cart">Add to cart</button>
-                   
-                  </a>
-                                  
-                </div>
-              </div>
-               
-             
-             
-          
-           <a href="../pages/coming wave-page.html" class="img">
-          <div class="first_container product_conatiner">
-            <span class="use_of_product">Gently Used 31%</span>
-            <img src="../images/index img/empty.png"  class="Like_symbol"/>
-               <img class="Book_image_card "  src="../images/new-arrival-img/the coming wave.jpg">
-                <p class="book_name">The Coming Wave</p>
-                  <p class="book_author">Michael Bhaskar</p>
-                  <p class="book_price"><del class="del_price">Rs.799</del>  Rs.551</p>
-                  <div class="rating_section">
-                    <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-                  
-                    <button class="add_to_cart">Add to cart</button>
-                    
-                  </a>
-                                  
-                  </div>
-                </div>
-
-
-          <a href="../pages/fury-page.html" class="img" >
-          <div class="first_container product_conatiner">
-            <span class="use_of_product">Gently Used 71%</span>
-            <img src="../images/index img/empty.png"  class="Like_symbol"/>
-               <img class="Book_image_card "  src="../images/new-arrival-img/the fury.jpg">
-                <p class="book_name name">The Fury</p>
-                  <p class="book_author">Alex Michaelides</p>
-                  <p class="book_price"><del class="del_price">Rs.799</del>  Rs.551</p>
-                  <div class="rating_section">
-                    <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-                  
-                    <button class="add_to_cart">Add to cart</button>
-                    
-                  </a>
-                                 
-               
-                </div>
-             
-          </div>
-
-
-
-         <a href="../pages/save your life-page.html" class="img">
-          <div class="first_container product_conatiner">
-            <span class="use_of_product">Gently Used 71%</span>
-            <img src="../images/index img/empty.png"  class="Like_symbol"/>
-               <img class="Book_image_card "  src="../images/new-arrival-img/this book may save your life.jpg">
-                <p class="book_name name">Save Your Life</p>
-                  <p class="book_author">Dr Karan Rajan</p>
-                  <p class="book_price"><del class="del_price">Rs.799</del>  Rs.551</p>
-                  <div class="rating_section">
-                    <a href="./pages/add-cart.html"class="text-decoration-none"></a>
-                  
-                    <button class="add_to_cart">Add to cart</button>
-                   
-                  </a>
-                                  
-               
-                </div>
-             
-             
-          </div>
-
-
-
-           <a href="../pages/chess win-page.html" class="img">
-            <div class="first_container product_conatiner">
-          
-              <span class="use_of_product">Gently Used 71%</span>
-              <img src="../images/index img/empty.png"  class="Like_symbol"/>
-           
-                 <img class="Book_image_card "  src="../images/new-arrival-img/chess.jpg">
-                  <p class="book_name name">How  Win Chess</p>
-                    <p class="book_author">Levy Rozman</p>                      
-                     <p class="book_price"><del class="del_price">Rs.1299</del>  Rs.1065</p>
-                 
-              <div class="rating_section">
-                <a href="./pages/add-cart.html"class="text-decoration-none"></a>
                 <button class="add_to_cart">Add to cart</button>
-                    
-                  </a>
-                              
-               </div>
-              </div>
+
+    </a>
+
+    </div>
+    </div>
+
+  </div>
+  <div id="card8">
+
+    <a href="../pages/fury-page.html" class="img">
+        <div class="first_container product_conatiner">
+            <span class="use_of_product">Gently Used 71%</span>
+            <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img10"
+                onclick="toggleheart10('Full')" />
+            <img class="Book_image_card " src="../images/new-arrival-img/the fury.jpg">
+            <p class="book_name name">The Fury</p>
+            <p class="book_author">Alex Michaelides</p>
+            <p class="book_price"><del class="del_price">Rs.799</del> Rs.551</p>
+            <div class="rating_section">
+                <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+
+                <button class="add_to_cart">Add to cart</button>
+
+    </a>
+
+
+    </div>
+
+    </div>
+  </div>
+  <div id="card8">
+
+    <a href="../pages/save your life-page.html" class="img">
+        <div class="first_container product_conatiner">
+            <span class="use_of_product">Gently Used 71%</span>
+            <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img11"
+                onclick="toggleheart11('Full')" />
+            <img class="Book_image_card " src="../images/new-arrival-img/this book may save your life.jpg">
+            <p class="book_name name">Save Your Life</p>
+            <p class="book_author">Dr Karan Rajan</p>
+            <p class="book_price"><del class="del_price">Rs.799</del> Rs.551</p>
+            <div class="rating_section">
+                <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+
+                <button class="add_to_cart">Add to cart</button>
+
+    </a>
+
+
+    </div>
+
+
+    </div>
+
+  </div>
+  <a href="../pages/chess win-page.html" class="img">
+    <div class="first_container product_conatiner">
+
+        <span class="use_of_product">Gently Used 71%</span>
+        <img src="../images/new-arrival-img/empty.png" class="Like_symbol" id="Like-img12"
+            onclick="toggleheart12('Full')" />
+
+        <img class="Book_image_card " src="../images/new-arrival-img/chess.jpg">
+        <p class="book_name name">How Win Chess</p>
+        <p class="book_author">Levy Rozman</p>
+        <p class="book_price"><del class="del_price">Rs.1299</del> Rs.1065</p>
+
+        <div class="rating_section">
+            <a href="./pages/add-cart.html" class="text-decoration-none"></a>
+            <button class="add_to_cart">Add to cart</button>
+
+</a>
+
+</div>
+</div>
+
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Footer -->
+
+  <footer class="text-center " style="background-color:#FAEED1; font-family: Roboto sans-serif;
+font-weight: 100;font-style: normal;">
+    <!-- < Right -->
+    <!-- <section  class="d-flex justify-content-between p-4 text-white" style="background-color:#FAEED1"> -->
+    <!-- Left -->
+    <!-- <div class="me-5 text-black" style="font-size: 25px;">
+        <span>Get connected with us on social networks:</span>
+      </div> -->
+    <!-- Left -->
+
+
+    <!-- Right -->
+
+    <!-- </section> -->
+
+    <section class="">
+      <div class="container text-center text-md-start mt-5" style="">
+        <!-- Grid row -->
+        <div class="row mt-3 mx-5">
+          <!-- Grid column -->
+          <div class="col-md-3   mb-4" style="margin-left:-100px;font-size:20px;margin-top:20px">
+            <!-- Content -->
+            <h6 class=" fw-bold" style="font-size:35px">Wonder Words</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 80px; background-color: #7c4dff; height: 2px;" />
+            <p class=" fw-bold">
+              Welcome to our Book shop website,
+              where your journey begins with convenience,
+              choice, and reliability.
+            </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2  mb-4  fw-bold"
+            style="font-size:20px; margin-left: 150px;margin-top:20px">
+            <!-- Links -->
+            <h6 class=" fw-bold" style="font-family: Roboto sans-serif; font-weight: 100;
+              font-style: normal; font-size:30px">Quick Links</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 80px; background-color: #7c4dff; height: 2px" />
+            <p><a href="../index.html" class="text-dark">Home</a></p>
+            <p><a href="../pages/about-us.html" class="text-dark">About</a></p>
+            <p><a href="../pages/contact.html" class="text-dark">Contact</a></p>
+            <p><a href="#!" class="text-dark">Find Your Kinds</a></p>
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 fw-bold " style="font-size:20px;margin-top:20px">
+            <!-- Links -->
+            <h6 class=" fw-bold" style="font-family: Roboto sans-serif; font-weight: 100;
+              font-style: normal; font-size:30px">Services</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 80px; background-color: #7c4dff; height: 2px" />
+            <p><a href="../pages/bestseller.html" class="text-dark">Best Sellers</a></p>
+            <p><a href="../pages/new-arrrival.html" class="text-dark">New Arrival</a></p>
+            <p><a href="../pages/" class="text-dark">Award Winners</a></p>
+            <p><a href="../index.html" class="text-dark">Daily Deals</a></p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 fw-bold"style="font-size:20px"> -->
+          <!-- Links -->
+          <!-- <h6 class=" fw-bold"style="font-family: Roboto sans-serif; font-weight: 100;
+              font-style: normal; font-size:25px">Policies</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"style="width: 60px; background-color: #7c4dff; height: 2px"/>
+              <p><a href="#!" class="text-dark">Privacy Policies</a></p>
+              <p><a href="#!" class="text-dark">Terms of Use</a></p>
+              <p><a href="#!" class="text-dark">Secure Shopping</a></p>
+              <p><a href="#!" class="text-dark">Copyright Policy</a></p>
+            </div> -->
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4 fw-bold"
+            style="font-size:20px; margin-right: -100px;margin-top:20px">
+            <!-- Links -->
+            <h6 class=" fw-bold"
+              style="font-family: Roboto sans-serif; font-weight: 100;font-style: normal; font-size:30px">Contact</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+            <p>
+              <i class="fas fa-home mr-3"></i>
+              <a href="https://maps.app.goo.gl/9cwJUf8Ruc1zuFEz8" class="footer-anchor text-dark" target="_blank">
+                <img src="../logo/placeholder.png" alt="location" class="contact-logo me-1" width="20px" />
+                404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari BK, Pune - 412307
+            </p></a>
+            <p><i class="fas fa-phone mr-3"></i>
+              <a href="tel: +91-8805803087" class="footer-anchor text-dark">
+                <img src="../logo/phone-call.png" alt="phone" class="contact-logo me-1" width="20px" />
+                +91-7821011979
+            </p>
+            </a>
+            <p><i class="fas fa-print mr-3"></i>
+              <a href="mailto: suraj@roadtocode.org" class="footer-anchor text-dark">
+                <img src="../logo/email2.png" alt="mail" class="contact-logo me-1" width="20px" />
+                suraj@roadtocode.org
+            </p>
+            </a>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links -->
+    <div style="justify-content: center;display: flex;margin-left: 25px;">
+      <a href="#" class="text-white me-4"><i class="fab fa-facebook-f"><img src="../logo/facebook.png" width="35px"
+            style="margin-top: -5px;"></i></a>
+      <a href="#" class="text-white me-4"><i class="fab fa-twitter"><img src="../logo/twitter.png" width="35px"
+            style="margin-top: -5px;"></i></a>
+      <a href="#" class="text-white me-4"><i class="fab fa-google"><img src="../logo/google.png" width="32px"
+            style="margin-top: -5px;"></i></a>
+      <a href="#" class="text-white me-4"><i class="fab fa-instagram"><img src="../logo/instagram.png" width="35px"
+            style="margin-top: -5px;"></i></a>
+      <a href="#" class="text-white me-4"><i class="fab fa-linkedin"><img src="../logo/linkedin.png" width="35px"
+            style="margin-top: -5px;"></i></a>
+      <a href="#" class="text-white me-4"><i class="fab fa-github"><img src="../logo/github.png" width="35px"
+            style="margin-top: -5px;"></i></a>
+    </div>
+
+    <!-- Copyright -->
+
+    <div class="text-center p-3 fw-bold" style="background-color: #BBAB8C;font-size:20px;margin-top: 15px;">
+      © 2024 Copyright:
+      <a class="text-dark" href="../index.html">Wonder Words</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <script>
+    function lowTohigh() {
+      let card1 = document.getElementById("card1");
+      let card2 = document.getElementById("card2");
+      let card3 = document.getElementById("card3");
+      let card4 = document.getElementById("card4");
+      let card5 = document.getElementById("card5");
+      let card6 = document.getElementById("card6");
+      let card7 = document.getElementById("card7");
+      let card8 = document.getElementById("card8");
+      let card9 = document.getElementById("card9");
+      let card10 = document.getElementById("card10");
+
+      card1.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 59%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_2.jpg">
+                        <p class="book_name"> The Falls</p>
+                        <p class="book_author">by Joyce Carol Oates</p>
+                        <p class="book_price"><del class="del_price">Rs.409</del> Rs.250</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card2.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 84%</span>
+                        <img class="Book_image_card" src="./../images/Bestseller/img_5.jpg">
+                        <p class="book_name">High and Dry</p>
+                        <p class="book_author">by Sabrina Gendron</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.280</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card3.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 79%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_3.jpg">
+                        <p class="book_name">Sharing the light</p>
+                        <p class="book_author">by Nicholas de Lange...</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card4.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 81%</span>
+                        <img class="Book_image_card" src="./../images/kids-books-imgs/img10.webp">
+                        <p class="book_name">Journey To the Stars</p>
+                        <p class="book_author">by Robert Bolt</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.300</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+         
+        `;
+      card5.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 86%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_8.jpg">
+                        <p class="book_name">Winnie-the-Pooh</p>
+                        <p class="book_author">by William Makepeace...</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.320</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card6.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 93%</span>
+                        <img class="Book_image_card" src="./../images/Bestseller/img_6.jpg">
+                        <p class="book_name">Charlotte's Web</p>
+                        <p class="book_author">by Annie Proulx</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.349</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card7.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 75%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_7.jpg">
+                        <p class="book_name">Miraculous</p>
+                        <p class="book_author">by Sujit Saraf</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.350</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+         
+        `;
+      card8.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 71%</span>
+                        <img class="Book_image_card" src="./../images/kids-books-imgs/img6.jpg">
+                        <p class="book_name">Owl At Home</p>
+                        <p class="book_author">by Chuck Palahniuk</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.400</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card9.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used
+                            58%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_1.jpg">
+                        <p class="book_name">A Farewell to Arms</p>
+                        <p class="book_author">by Ernest Hemingway</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.549</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card10.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 72%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_4.jpg">
+                        <p class="book_name">The Bonfire of the Van</p>
+                        <p class="book_author">by James Kelman</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.590</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+    }
+    function highToLow() {
+      let card1 = document.getElementById("card1");
+      let card2 = document.getElementById("card2");
+      let card3 = document.getElementById("card3");
+      let card4 = document.getElementById("card4");
+      let card5 = document.getElementById("card5");
+      let card6 = document.getElementById("card6");
+      let card7 = document.getElementById("card7");
+      let card8 = document.getElementById("card8");
+      let card9 = document.getElementById("card9");
+      let card10 = document.getElementById("card10");
+
+      card10.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 59%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_2.jpg">
+                        <p class="book_name"> The Falls</p>
+                        <p class="book_author">by Joyce Carol Oates</p>
+                        <p class="book_price"><del class="del_price">Rs.409</del> Rs.250</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card9.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 84%</span>
+                        <img class="Book_image_card" src="./../images/Bestseller/img_5.jpg">
+                        <p class="book_name">High and Dry</p>
+                        <p class="book_author">by Sabrina Gendron</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.280</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card8.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 79%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_3.jpg">
+                        <p class="book_name">Sharing the light</p>
+                        <p class="book_author">by Nicholas de Lange...</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card7.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 81%</span>
+                        <img class="Book_image_card" src="./../images/kids-books-imgs/img10.webp">
+                        <p class="book_name">Journey To the Stars</p>
+                        <p class="book_author">by Robert Bolt</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.300</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+         
+        `;
+      card6.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 86%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_8.jpg">
+                        <p class="book_name">Winnie-the-Pooh</p>
+                        <p class="book_author">by William Makepeace...</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.320</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card5.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 93%</span>
+                        <img class="Book_image_card" src="./../images/Bestseller/img_6.jpg">
+                        <p class="book_name">Charlotte's Web</p>
+                        <p class="book_author">by Annie Proulx</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.349</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card4.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 75%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_7.jpg">
+                        <p class="book_name">Miraculous</p>
+                        <p class="book_author">by Sujit Saraf</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.350</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+         
+        `;
+      card3.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 71%</span>
+                        <img class="Book_image_card" src="./../images/kids-books-imgs/img6.jpg">
+                        <p class="book_name">Owl At Home</p>
+                        <p class="book_author">by Chuck Palahniuk</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.400</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card2.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used
+                            58%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_1.jpg">
+                        <p class="book_name">A Farewell to Arms</p>
+                        <p class="book_author">by Ernest Hemingway</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.549</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+      card1.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 72%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_4.jpg">
+                        <p class="book_name">The Bonfire of the Van</p>
+                        <p class="book_author">by James Kelman</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.590</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+        `;
+    }
+    function JoyceCarolates() {
+      let card1 = document.getElementById("card1");
+      let card2 = document.getElementById("card2");
+      let card3 = document.getElementById("card3");
+      let card4 = document.getElementById("card4");
+      let card5 = document.getElementById("card5");
+      let card6 = document.getElementById("card6");
+      let card7 = document.getElementById("card7");
+      let card8 = document.getElementById("card8");
+      let card9 = document.getElementById("card9");
+      let card10 = document.getElementById("card10");
+      card1.innerHTML = `
+                            <div class="first_container product_conatiner">
+                                <span class="use_of_product">Gently Used 59%</span>
+                                <img class="Book_image_card " src="./../images/Bestseller/img_2.jpg">
+                                <p class="book_name"> The Falls</p>
+                                <p class="book_author">by Joyce Carol Oates</p>
+                                <p class="book_price"><del class="del_price">Rs.409</del> Rs.250</p>
+                                <p class="add_to_cart">Add to cart</p>
+                            </div>
+                `;
+      card2.innerHTML = "";
+      card3.innerHTML = "";
+      card4.innerHTML = "";
+      card5.innerHTML == "";
+      card6.innerHTML = "";
+      card7.innerHTML = "";
+      card8.innerHTML = "";
+      card9.innerHTML = "";
+      card10.innerHTML = "";
+
+    }
+    function JoyceCarolates() {
+      let card1 = document.getElementById("card1");
+      let card2 = document.getElementById("card2");
+      let card3 = document.getElementById("card3");
+      let card4 = document.getElementById("card4");
+      let card5 = document.getElementById("card5");
+      let card6 = document.getElementById("card6");
+      let card7 = document.getElementById("card7");
+      let card8 = document.getElementById("card8");
+      let card9 = document.getElementById("card9");
+      let card10 = document.getElementById("card10");
+
+      // Show card1
+      card1.innerHTML = `
+                        <div class="first_container product_conatiner">
+                            <span class="use_of_product">Gently Used 59%</span>
+                            <img class="Book_image_card " src="./../images/Bestseller/img_2.jpg">
+                            <p class="book_name"> The Falls</p>
+                            <p class="book_author">by Joyce Carol Oates</p>
+                            <p class="book_price"><del class="del_price">Rs.409</del> Rs.250</p>
+                            <p class="add_to_cart">Add to cart</p>
+                        </div>
+                    `;
+
+      // Hide other cards by clearing their inner HTML
+      card2.innerHTML = "";
+      card3.innerHTML = "";
+      card4.innerHTML = "";
+      card5.innerHTML = "";
+      card6.innerHTML = "";
+      card7.innerHTML = "";
+      card8.innerHTML = "";
+      card9.innerHTML = "";
+      card10.innerHTML = "";
+    }
+    function JamesKelman() {
+      let card1 = document.getElementById("card1");
+      let card2 = document.getElementById("card2");
+      let card3 = document.getElementById("card3");
+      let card4 = document.getElementById("card4");
+      let card5 = document.getElementById("card5");
+      let card6 = document.getElementById("card6");
+      let card7 = document.getElementById("card7");
+      let card8 = document.getElementById("card8");
+      let card9 = document.getElementById("card9");
+      let card10 = document.getElementById("card10");
+
+      // Show card1
+      card1.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 72%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_4.jpg">
+                        <p class="book_name">The Bonfire of the Van</p>
+                        <p class="book_author">by James Kelman</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.590</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+                    `;
+
+      // Hide other cards by clearing their inner HTML
+      card2.innerHTML = "";
+      card3.innerHTML = "";
+      card4.innerHTML = "";
+      card5.innerHTML = "";
+      card6.innerHTML = "";
+      card7.innerHTML = "";
+      card8.innerHTML = "";
+      card9.innerHTML = "";
+      card10.innerHTML = "";
+    }
+    function NicholasdeLange() {
+      let card1 = document.getElementById("card1");
+      let card2 = document.getElementById("card2");
+      let card3 = document.getElementById("card3");
+      let card4 = document.getElementById("card4");
+      let card5 = document.getElementById("card5");
+      let card6 = document.getElementById("card6");
+      let card7 = document.getElementById("card7");
+      let card8 = document.getElementById("card8");
+      let card9 = document.getElementById("card9");
+      let card10 = document.getElementById("card10");
+
+      // Show card1
+      card1.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 79%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_3.jpg">
+                        <p class="book_name">Sharing the light</p>
+                        <p class="book_author">by Nicholas de Lange...</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.299</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+                    `;
+
+      // Hide other cards by clearing their inner HTML
+      card2.innerHTML = "";
+      card3.innerHTML = "";
+      card4.innerHTML = "";
+      card5.innerHTML = "";
+      card6.innerHTML = "";
+      card7.innerHTML = "";
+      card8.innerHTML = "";
+      card9.innerHTML = "";
+      card10.innerHTML = "";
+    }
+    function SabrinaGendron() {
+      let card1 = document.getElementById("card1");
+      let card2 = document.getElementById("card2");
+      let card3 = document.getElementById("card3");
+      let card4 = document.getElementById("card4");
+      let card5 = document.getElementById("card5");
+      let card6 = document.getElementById("card6");
+      let card7 = document.getElementById("card7");
+      let card8 = document.getElementById("card8");
+      let card9 = document.getElementById("card9");
+      let card10 = document.getElementById("card10");
+
+      // Show card1
+      card1.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 84%</span>
+                        <img class="Book_image_card" src="./../images/Bestseller/img_5.jpg">
+                        <p class="book_name">High and Dry</p>
+                        <p class="book_author">by Sabrina Gendron</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.280</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+                    `;
+
+      card2.innerHTML = `<div class="first_container product_conatiner">
+                    <span class="use_of_product">Gently Used 75%</span>
+                    <img class="Book_image_card " src="./../images/Bestseller/img_7.jpg">
+                    <p class="book_name">Miraculous</p>
+                    <p class="book_author">by Sabrina Gendron</p>
+                    <p class="book_price"><del class="del_price">Rs.599</del> Rs.350</p>
+                    <p class="add_to_cart">Add to cart</p>
+                </div></div>`;
+      card3.innerHTML = "";
+      card4.innerHTML = "";
+      card5.innerHTML = "";
+      card6.innerHTML = "";
+      card7.innerHTML = "";
+      card8.innerHTML = "";
+      card9.innerHTML = "";
+      card10.innerHTML = "";
+    }
+    function JamesKelman() {
+      let card1 = document.getElementById("card1");
+      let card2 = document.getElementById("card2");
+      let card3 = document.getElementById("card3");
+      let card4 = document.getElementById("card4");
+      let card5 = document.getElementById("card5");
+      let card6 = document.getElementById("card6");
+      let card7 = document.getElementById("card7");
+      let card8 = document.getElementById("card8");
+      let card9 = document.getElementById("card9");
+      let card10 = document.getElementById("card10");
+
+      // Show card1
+      card1.innerHTML = `
+                    <div class="first_container product_conatiner">
+                        <span class="use_of_product">Gently Used 72%</span>
+                        <img class="Book_image_card " src="./../images/Bestseller/img_4.jpg">
+                        <p class="book_name">The Bonfire of the Van</p>
+                        <p class="book_author">by James Kelman</p>
+                        <p class="book_price"><del class="del_price">Rs.599</del> Rs.590</p>
+                        <p class="add_to_cart">Add to cart</p>
+                    </div>
+                    `;
+
+      // Hide other cards by clearing their inner HTML
+      card2.innerHTML = "";
+      card3.innerHTML = "";
+      card4.innerHTML = "";
+      card5.innerHTML = "";
+      card6.innerHTML = "";
+      card7.innerHTML = "";
+      card8.innerHTML = "";
+      card9.innerHTML = "";
+      card10.innerHTML = "";
+    }
+
+
+
+  </script>
+  <script src="../js/bestsellers.js"></script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
