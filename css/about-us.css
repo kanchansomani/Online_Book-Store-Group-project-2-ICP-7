@@ -333,3 +333,17 @@ h1{
     background-color: #F3F1EE; 
     margin-bottom: 40px;  
 }
+.nav {
+    background-color: #fde8e8;
+    font-size: 17px;
+}
+
+.search {
+    margin-right: 300px;
+}
+
+.dropdown-list {
+    width: 70px;
+    font-size: 17px;
+}
+
