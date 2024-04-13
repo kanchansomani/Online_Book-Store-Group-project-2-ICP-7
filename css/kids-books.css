@@ -80,11 +80,17 @@
     font-size: 15px;
 }
 .add_to_cart{
-    font-family: "Roboto", sans-serif;
-    font-weight: 100px;
-    font-style: normal;
-    font-size: 15px;
-    color:rgb(183, 120, 4)
+    justify-content: center;
+        margin-left: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100px;
+        font-style: normal;
+        font-size: 15px;
+        background-color:rgb(183, 120, 4);
+        border-radius: 30px;  
+        border: none;
+        color: white;
+       margin-bottom: 10px;
 }
 .sidebar {
     display: flex;
