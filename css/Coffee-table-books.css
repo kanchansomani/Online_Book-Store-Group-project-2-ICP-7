@@ -36,6 +36,7 @@
     cursor: pointer;
     justify-content: center;
     background-color: #eee4d5;
+    
 }
 .use_of_product{
     background-color: gray;
@@ -77,7 +78,9 @@
     font-weight: 100px;
     font-style: normal;
     font-size: 15px;
-    color:rgb(183, 120, 4)
+    color:rgb(183, 120, 4);
+
+    
 }
 .sidebar {
     display: flex;
