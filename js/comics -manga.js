@@ -158,7 +158,7 @@ function lowTohigh() {
         <p class="book_name">The Boom</p>
         <p class="book_author">by David Smith</p>
         <p class="book_price"><del class="del_price">Rs.199</del> Rs.85</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 `;
     card2.innerHTML = `
@@ -168,7 +168,7 @@ function lowTohigh() {
         <p class="book_name">The SIEGE</p>
         <p class="book_author">by A.A. Milne</p>
         <p class="book_price"><del class="del_price">Rs.199</del> Rs.150</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 `;
     card3.innerHTML = `
@@ -178,7 +178,7 @@ function lowTohigh() {
         <p class="book_name">High and Dry</p>
         <p class="book_author">by Sabrina Gendron</p>
         <p class="book_price"><del class="del_price">Rs.250</del> Rs.200</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
     </div>
 `;
     card4.innerHTML = `
@@ -188,7 +188,7 @@ function lowTohigh() {
         <p class="book_name">The Onepiec</p>
         <p class="book_author">by Eiichiro Oda</p>
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 
 `;
@@ -199,7 +199,7 @@ function lowTohigh() {
         <p class="book_name">The KAPTARA</p>
         <p class="book_author">by Kagan McLeod</p>
         <p class="book_price"><del class="del_price">Rs.399</del> Rs.299</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 `;
     card6.innerHTML = `
@@ -209,7 +209,7 @@ function lowTohigh() {
         <p class="book_name">Spy-Family</p>
         <p class="book_author">by Tatsuya Endo</p>
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.350</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 `;
     card7.innerHTML = `
@@ -219,7 +219,7 @@ function lowTohigh() {
         <p class="book_name">Invingible</p>
         <p class="book_author">by Kirkman</p>
         <p class="book_price"><del class="del_price">Rs.499</del> Rs.399</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
   
     </div>
 
@@ -231,7 +231,7 @@ function lowTohigh() {
         <p class="book_name">The Marvel Comic</p>
         <p class="book_author">by Dr. Seuss</p>
         <p class="book_price"><del class="del_price">Rs.699</del> Rs.599</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 `;
    
@@ -255,7 +255,7 @@ function highToLow() {
         <p class="book_name">The Boom</p>
         <p class="book_author">by David Smith</p>
         <p class="book_price"><del class="del_price">Rs.199</del> Rs.85</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 `;
     card7.innerHTML = `
@@ -265,7 +265,7 @@ function highToLow() {
         <p class="book_name">The SIEGE</p>
         <p class="book_author">by A.A. Milne</p>
         <p class="book_price"><del class="del_price">Rs.199</del> Rs.150</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 `;
     card6.innerHTML = `
@@ -275,7 +275,7 @@ function highToLow() {
         <p class="book_name">High and Dry</p>
         <p class="book_author">by Sabrina Gendron</p>
         <p class="book_price"><del class="del_price">Rs.250</del> Rs.200</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
     </div>
 `;
     card5.innerHTML = `
@@ -285,7 +285,7 @@ function highToLow() {
         <p class="book_name">The Onepiec</p>
         <p class="book_author">by Eiichiro Oda</p>
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 
 `;
@@ -296,7 +296,7 @@ function highToLow() {
         <p class="book_name">The KAPTARA</p>
         <p class="book_author">by Kagan McLeod</p>
         <p class="book_price"><del class="del_price">Rs.399</del> Rs.299</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 `;
     card3.innerHTML = `
@@ -306,7 +306,7 @@ function highToLow() {
         <p class="book_name">Spy-Family</p>
         <p class="book_author">by Tatsuya Endo</p>
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.350</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 `;
     card2.innerHTML = `
@@ -316,7 +316,7 @@ function highToLow() {
         <p class="book_name">Invingible</p>
         <p class="book_author">by Kirkman</p>
         <p class="book_price"><del class="del_price">Rs.499</del> Rs.399</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
   
     </div>
 
@@ -328,7 +328,7 @@ function highToLow() {
         <p class="book_name">The Marvel Comic</p>
         <p class="book_author">by Dr. Seuss</p>
         <p class="book_price"><del class="del_price">Rs.699</del> Rs.599</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
 `;
 }
@@ -350,7 +350,7 @@ function KaganMcLeod(){
                 <p class="book_name">The KAPTARA</p>
                 <p class="book_author">by Kagan McLeod</p>
                 <p class="book_price"><del class="del_price">Rs.399</del> Rs.299</p>
-                <p class="add_to_cart">Add to cart</p>
+                <button class="add_to_cart">Add to cart</button>
               </div>
 `;
             card2.innerHTML = "";
@@ -384,7 +384,7 @@ function DavidSmith() {
         <p class="book_name">The Boom</p>
         <p class="book_author">by David Smith</p>
         <p class="book_price"><del class="del_price">Rs.199</del> Rs.85</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
     `;
 
@@ -419,7 +419,7 @@ function Seuss() {
         <p class="book_name">The Marvel Comic</p>
         <p class="book_author">by Dr. Seuss</p>
         <p class="book_price"><del class="del_price">Rs.699</del> Rs.599</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
     `;
 
@@ -454,7 +454,7 @@ function Eiichiro() {
         <p class="book_name">The Onepiec</p>
         <p class="book_author">by Eiichiro Oda</p>
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.250</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
       </div>
     `;
 
@@ -489,7 +489,7 @@ function SabrinaGendron() {
         <p class="book_name">High and Dry</p>
         <p class="book_author">by Sabrina Gendron</p>
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.280</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
     </div>
     `;
     card2.innerHTML = `
@@ -499,7 +499,7 @@ function SabrinaGendron() {
         <p class="book_name">High and Dry</p>
         <p class="book_author">by Sabrina Gendron</p>
         <p class="book_price"><del class="del_price">Rs.250</del> Rs.200</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
   
     </div>`;
     card3.innerHTML = "";
@@ -531,7 +531,7 @@ function JamesKelman() {
         <p class="book_name">The Bonfire of the Van</p>
         <p class="book_author">by James Kelman</p>
         <p class="book_price"><del class="del_price">Rs.599</del> Rs.590</p>
-        <p class="add_to_cart">Add to cart</p>
+        <button class="add_to_cart">Add to cart</button>
     </div>
     `;
 
