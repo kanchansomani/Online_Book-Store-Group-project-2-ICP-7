@@ -1,13 +1,13 @@
-function toggleheart(state){
-    const  heartElement = document.getElementById("Like-img");
-    if(state =='Full'){
-        heartElement.src = './images/index img/heart.png';
+function toggleheart1(state){
+    const  heartElement = document.getElementById("Like-img1");
+    if(state =='empty'){
+        heartElement.src = '../images/coffee-table-book-img/empty.png';
     }         
 
-    else if (state == 'empty')
+    else if (state == 'Full')
     {
         
-        heartElement.src = './images/index img/empty.png';
+        heartElement.src = '../images/coffee-table-book-img/heart.png';
     }         
     
 } 
@@ -17,13 +17,13 @@ function toggleheart(state){
 function toggleheart2(state){
     const  heartElement = document.getElementById("Like-img2");
     if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
+        heartElement.src = '../images/coffee-table-book-img/empty.png';
     }         
 
     else if (state == 'Full')
     {
         
-        heartElement.src = './images/index img/heart.png';
+        heartElement.src = '../images/coffee-table-book-img/heart.png';
     }         
     
 }  
@@ -31,13 +31,13 @@ function toggleheart2(state){
 function toggleheart3(state){
     const  heartElement = document.getElementById("Like-img3");
     if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
+        heartElement.src = '../images/coffee-table-book-img/empty.png';
     }         
 
     else if (state == 'Full')
     {
         
-        heartElement.src = './images/index img/heart.png';
+        heartElement.src = '../images/coffee-table-book-img/heart.png';
     }         
     
 }  
@@ -45,13 +45,13 @@ function toggleheart3(state){
 function toggleheart4(state){
     const  heartElement = document.getElementById("Like-img4");
     if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
+        heartElement.src = '../images/coffee-table-book-img/empty.png';
     }         
 
     else if (state == 'Full')
     {
         
-        heartElement.src = './images/index img/heart.png';
+        heartElement.src = '../images/coffee-table-book-img/heart.png';
     }         
     
 }  
@@ -59,13 +59,13 @@ function toggleheart4(state){
 function toggleheart5(state){
     const  heartElement = document.getElementById("Like-img5");
     if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
+        heartElement.src = '../images/coffee-table-book-img/empty.png';
     }         
 
     else if (state == 'Full')
     {
         
-        heartElement.src = './images/index img/heart.png';
+        heartElement.src = '../images/coffee-table-book-img/heart.png';
     }         
     
 }  
@@ -73,13 +73,13 @@ function toggleheart5(state){
 function toggleheart6(state){
     const  heartElement = document.getElementById("Like-img6");
     if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
+        heartElement.src = '../images/coffee-table-book-img/empty.png';
     }         
 
     else if (state == 'Full')
     {
         
-        heartElement.src = './images/index img/heart.png';
+        heartElement.src = '../images/coffee-table-book-img/heart.png';
     }         
     
 }  
@@ -87,13 +87,13 @@ function toggleheart6(state){
 function toggleheart7(state){
     const  heartElement = document.getElementById("Like-img7");
     if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
+        heartElement.src = '../images/coffee-table-book-img/empty.png';
     }         
 
     else if (state == 'Full')
     {
         
-        heartElement.src = './images/index img/heart.png';
+        heartElement.src = '../images/coffee-table-book-img/heart.png';
     }         
     
 }  
@@ -101,13 +101,13 @@ function toggleheart7(state){
 function toggleheart8(state){
     const  heartElement = document.getElementById("Like-img8");
     if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
+        heartElement.src = '../images/coffee-table-book-img/empty.png';
     }         
 
     else if (state == 'Full')
     {
         
-        heartElement.src = './images/index img/heart.png';
+        heartElement.src = '../images/coffee-table-book-img/heart.png';
     }         
     
 }  
@@ -115,13 +115,13 @@ function toggleheart8(state){
 function toggleheart9(state){
     const  heartElement = document.getElementById("Like-img9");
     if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
+        heartElement.src = '../images/coffee-table-book-img/empty.png';
     }         
 
     else if (state == 'Full')
     {
         
-        heartElement.src = './images/index img/heart.png';
+        heartElement.src = '../images/coffee-table-book-img/heart.png';
     }         
     
 }  
@@ -129,13 +129,13 @@ function toggleheart9(state){
 function toggleheart10(state){
     const  heartElement = document.getElementById("Like-img10");
     if(state =='Empty'){
-        heartElement.src = './images/index img/empty.png';
+        heartElement.src = '../images/coffee-table-book-img/empty.png';
     }         
 
     else if (state == 'Full')
     {
         
-        heartElement.src = './images/index img/heart.png';
+        heartElement.src = '../images/coffee-table-book-img/heart.png';
     }         
     
 }  

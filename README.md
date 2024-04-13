@@ -1,4 +1,4 @@
-# Project-Name: online_bookstore_website_project-1_icp7.0
+# Project-Name: online_bookstore_website_project-2_icp7.0
 
 ---
 # Project-Title: Wonder Words Bookstore
@@ -45,5 +45,5 @@ We welcome contributions from the community to help us expand and improve this h
 3. Open pull request in this repository.
 
 ---
-## Contributors
+
 
