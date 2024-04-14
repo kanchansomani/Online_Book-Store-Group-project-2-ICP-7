@@ -22,7 +22,7 @@ This Project is simply made by using HTML,CSS,Bootstrap and Javascript. Weather 
 ### Home Page
 
 
-![Home Page](./images/README.md/Screenshot%20(361).png)
+
 ---
 ![Home Page](./images/README.md/Screenshot%20(362).png)
 ---
