@@ -1,4 +1,4 @@
-# Project-Name: online_bookstore_website_project-1_icp7.0
+# Project-Name: online_bookstore_website_project-2_icp7.0
 
 ---
 # Project-Title: Wonder Words Bookstore
@@ -17,9 +17,10 @@ This Project is simply made by using HTML,CSS,Bootstrap and Javascript. Weather 
 6. Newly Arrival Page
 7. Payment Page
 8. Contact Us Page
-9. 9.Add to cart Page
+9. Add to cart Page
 ---
 ### Home Page
+<<<<<<< HEAD
 
 
 ![Home Page](./images/README.md/Screenshot%20(361).png)
@@ -31,12 +32,21 @@ This Project is simply made by using HTML,CSS,Bootstrap and Javascript. Weather 
 ![Home Page](./images/README.md/Screenshot%20(364).png)
 ---
 ![Home Page](./images/README.md/Screenshot%20(365).png)
+=======
+![Home Page](./images/Readme/Screenshot1.jpg)
+The home page of the website displays a list of best sellers, new arrivals and categories for users to browse through. It also includes search.
+>>>>>>> b654830c4266e5dac6b7c534a5c296e3f4f1162c
 
-![Home Page](./images/README.md/Screenshot%20(366).png)
+![Home Page](./images/Readme/Scrrenshot2.jpg)
+The home page is the first page that users will see when they visit our website. 
 
-![Home Page](./images/README.md/Screenshot%20(367).png)
+![Home Page](./images/Readme/Scrrenshot3.jpg)
+Wonder Words Bookstore website, which displays a list of best sellers and new arrivals.
 
-![Home Page](./images/README.md/Screenshot%20(368).png)
+![Home Page](./images/Readme/Screenshot4.jpg)
+Users can search for books by entering keywords in the search bar or browse through categories such as "Fiction", "Nonfiction", "Users can click on any book's image or Users can click on any book's image or Users can click on any book to add it into Users 
+
+
 
 ---
 
@@ -49,5 +59,5 @@ We welcome contributions from the community to help us expand and improve this h
 3. Open pull request in this repository.
 
 ---
-## Contributors
+
 
